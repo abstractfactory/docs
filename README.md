@@ -1,4 +1,0 @@
-docs
-====
-
-Abstract Factory Documentation
