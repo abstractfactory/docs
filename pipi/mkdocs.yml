@@ -1,0 +1,14 @@
+site_name: pifou Documentation
+docs_dir: 'src'
+pages:
+- [index.md, Getting Started]
+- [configuration.md, Configuration]
+- [api.md, API]
+- [contributing.md, Contributing]
+- [about.md, About]
+# theme_dir: 'theme'
+theme: 'bootstrap'
+# theme: cerulean
+# theme: cosmo
+# theme: cyborg
+# theme: slate
