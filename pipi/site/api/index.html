@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-        <title>About - pifou Documentation</title>
+        <title>API - pifou Documentation</title>
 
         <link href="../css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -62,8 +62,8 @@
             
             
             
-                <li >
-                    <a href="../api/">API</a>
+                <li class="active">
+                    <a href="./">API</a>
                 </li>
             
             
@@ -74,8 +74,8 @@
             
             
             
-                <li class="active">
-                    <a href="./">About</a>
+                <li >
+                    <a href="../about/">About</a>
                 </li>
             
             
@@ -85,12 +85,12 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../contributing/">
+                    <a rel="next" href="../configuration/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="prev" >
+                <li >
+                    <a rel="prev" href="../contributing/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -104,18 +104,33 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#where-am-i">Where am I?</a></li>
+        <li class="main active"><a href="#api-documentation">API Documentation</a></li>
+        
+    
+        <li class="main "><a href="#architecture">Architecture</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="where-am-i">Where am I?</h1>
-<p>You're looking at an early draft of documentation, specifically tailored for the first beta of Pipi, the digital content creation platform.</p>
-<p>Psyched? Yes you are.</p>
-<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#114;&#99;&#117;&#115;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;">&#109;&#97;&#114;&#99;&#117;&#115;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;</a>
-<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;">&#104;&#101;&#108;&#108;&#111;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;</a></p>
+<h1 id="api-documentation">API Documentation</h1>
+<p><a href="https://github.com/abstractfactory/pifou_beta1">The code</a> is well documented. Is not? <a href="https://groups.google.com/forum/#!forum/pipi-beta1">Let's talk.</a></p>
+<h1 id="architecture">Architecture</h1>
+<p>Here is a quick overview of what layers there are, and where they fit.</p>
+<p>The modules you have installed are each part of the Foundation layer.</p>
+<ul>
+<li><code>pifou</code></li>
+</ul>
+<p>This is the Pipi Foundation Module, all other modules build on-top of this one. It provides the <strong>Pipi Object Model</strong> and <strong>Communications Framework</strong>, both of which are required by <code>pigui</code> and <code>piapp</code>.</p>
+<ul>
+<li><code>pigui</code></li>
+</ul>
+<p>The Pipi GUI Module, contains all GUI objects and widgets, most of which are designed to run with PyQt5. We build software using these widgets and utilities and although each widgets stands on its own, they are without any particular intelligence. That is why you'll also need..</p>
+<ul>
+<li><code>piapp</code></li>
+</ul>
+<p>..The Pipi Applications Module. It hosts the pre-packaged software you may come to use with Pipi. These are what your users will be most familiar with (at first) and what you might base custom software off of. Each is designed to be lightweight and extensible as they are ultimately expected to be extended by clients (that's you!).</p>
 </div>
         </div>
 

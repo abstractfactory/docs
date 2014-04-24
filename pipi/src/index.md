@@ -1,38 +1,54 @@
 <!-- ![](../img/company.png) -->
-![](https://dl.dropbox.com/s/o3s62jqkn1c51lg/title.png)
+![](https://dl.dropbox.com/s/x6gap4a13jekdnz/title.png)
 
 Abstract Factory Ltd.
 Copyright 2014
 
 # Usergroup
 
-First things first, if you have any question, suggestions or just want to spread the love, head over to the
+First things first, if you have any question, suggestions or just want to spread the love go here:
 
-[**Pipi Beta 1 - Usergroup**][usergroup]
+[**Usergroup**][usergroup]
 
 Now fly little bird, fly!
 
-Videos
+* [`video` Installing with `pip`][Installing with pip]
+* [`video` Running Software][Running Software]
+* [`video` Adding a new workspace][Adding a new workspace]
+* [`video` Adding software][Adding software]
+* [`video` Registering software][Registering software]
+* [`video` Configuring Software][Configuring Software]
+* [`video` Non-available software][Non-available software]
 
-* 
+# Installing with [`pip`][pip]
 
-# Installing with `pip`
+This is what you *have*
 
-Assuming you've got a 64-bit version of Windows 7 or 8, Python 2.7 and `pip`, pop open a command prompt and type this:
+* Windows >= 7, x64
+* [`link` Visual C++ 2012 redist x64][redist]
+* [`link` Python == 2.7.6, x64][python]
+* [`link` pip >= 1.5.0][pip]
+* [`link` git >= 1.9.0][git]
+
+This is what you *run*
 
 ```bash
-$ pip install git+git://github.com/abstractfactory/pifou_beta1.git
-$ pip install git+git://github.com/abstractfactory/pigui_beta1.git
-$ pip install git+git://github.com/abstractfactory/piapp_beta1.git
+$ pip install git+https://github.com/abstractfactory/pifou_beta1.git
+$ pip install git+https://github.com/abstractfactory/pigui_beta1.git
+$ pip install git+https://github.com/abstractfactory/piapp_beta1.git
 ```
 
-(You may copy/paste) Now run Dashboard, like this:
+This is what you *do*
 
 ```bash
 $ python .\piapp\dashboard\bin\dashboard.pyw
 ```
 
 Where `.\` refers to where `pip` installed Pipi; most commonly the site-packages of your Python installation.
+
+```bash
+c:\Python27\Libs\site-packages\piapp
+```
 
 # Dependencies
 
@@ -44,11 +60,10 @@ $ pip install git+git://github.com/abstractfactory/pidep.git
 
 For convenience, dependencies have been encapsulated within this one package. If you decide later to use your own dependencies, well, then you are free to do so. Here they are.
 
-* Environment 		-- Windows 7 x64, Python 2.7.6 x64
-* [Open Metadata][] -- v0.5
-* [PyQt5][]			-- Built using Qt 5.1.1
-* [PyZMQ][]		 	-- Built using libzmq 4.0.3
-* [Msgpack][]		-- v0.4.1
+* [`link` Open Metadata][Open Metadata] v0.5
+* [`link` PyQt5][PyQt5] Built using Qt 5.1.1
+* [`link` PyZMQ][PyZMQ]  Built using libzmq 4.0.3
+* [`link` Msgpack][Msgpack] v0.4.1
 
 # What happened?
 
@@ -84,6 +99,7 @@ Open Metadata
 * [RFC46][]: Temporal Resolution
 
 
+
 [RFC10]: http://rfc.abstractfactory.io/spec/10
 [RFC12]: http://rfc.abstractfactory.io/spec/12
 [RFC13]: http://rfc.abstractfactory.io/spec/13
@@ -98,11 +114,24 @@ Open Metadata
 [RFC41]: http://rfc.abstractfactory.io/spec/41
 [RFC46]: http://rfc.abstractfactory.io/spec/46
 [RFC23]: http://rfc.abstractfactory.io/spec/23
-[RFC31]: http://rfc.abstractfactory.io/spec/31/
+[RFC31]: http://rfc.abstractfactory.io/spec/31
 [RFC24]: http://rfc.abstractfactory.io/spec/24
 [RFC25]: http://rfc.abstractfactory.io/spec/25
 [RFC27]: http://rfc.abstractfactory.io/spec/27
 [RFC28]: http://rfc.abstractfactory.io/spec/28
+
+[Installing with pip]: http://www.google.com
+[Running Software]: http://www.google.com
+[Adding a new workspace]: http://www.google.com
+[Adding software]: http://www.google.com
+[Registering software]: http://www.google.com
+[Configuring Software]: http://www.google.com
+[Non-available software]: http://www.google.com
+
+[redist]: http://www.microsoft.com/en-gb/download/details.aspx?id=30679
+[git]: http://git-scm.com/downloads
+[python]: https://www.python.org/download/releases/2.7.6/
+[pip]: http://pip.readthedocs.org/en/latest/installing.html
 [usergroup]: https://groups.google.com/forum/#!forum/pipi-beta1
 [Open Metadata]: https://github.com/abstractfactory/openmetadata
 [PyQt5]: http://www.riverbankcomputing.co.uk/software/pyqt/download5
