@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="./img/favicon.ico">
 
-        <title>pifou Documentation</title>
+        <title>Pipi Documentation</title>
 
         <link href="./css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -41,7 +41,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">pifou Documentation</a>
+            <a class="navbar-brand" href=".">Pipi Documentation</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -56,14 +56,40 @@
             
             
             
-                <li >
-                    <a href="configuration/">Configuration</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="installation/developer-installation/">Developer Installation</a>
+                        </li>
+                    
+                        <li >
+                            <a href="installation/user-installation/">User Installation</a>
+                        </li>
+                    
+                    </ul>
                 </li>
             
             
             
-                <li >
-                    <a href="api/">API</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="user-guide/configuration/">Configuration</a>
+                        </li>
+                    
+                        <li >
+                            <a href="user-guide/reference/">Reference</a>
+                        </li>
+                    
+                        <li >
+                            <a href="user-guide/api/">API</a>
+                        </li>
+                    
+                    </ul>
                 </li>
             
             
@@ -90,7 +116,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="configuration/">
+                    <a rel="prev" href="installation/developer-installation/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -106,105 +132,70 @@
     
         <li class="main active"><a href="#usergroup">Usergroup</a></li>
         
-    
-        <li class="main "><a href="#installing-with-pip">Installing with pip</a></li>
+            <li><a href="#usergroup_1">Usergroup</a></li>
         
     
-        <li class="main "><a href="#dependencies">Dependencies</a></li>
+        <li class="main "><a href="#installation">Installation</a></li>
+        
+            <li><a href="#developer-installation">Developer installation</a></li>
+        
+            <li><a href="#user-installation">User installation</a></li>
         
     
-        <li class="main "><a href="#what-happened">What happened?</a></li>
+        <li class="main "><a href="#reference">Reference</a></li>
+        
+            <li><a href="#about">About</a></li>
+        
+            <li><a href="#dashboard">Dashboard</a></li>
         
     
-        <li class="main "><a href="#more">More</a></li>
+        <li class="main "><a href="#configuration">Configuration</a></li>
+        
+            <li><a href="#configuration_1">Configuration</a></li>
+        
+    
+        <li class="main "><a href="#have-fun">Have fun</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<!-- ![](../img/company.png) -->
+<!-- ![](../img/title.png) -->
 
 <p><img alt="" src="https://dl.dropbox.com/s/x6gap4a13jekdnz/title.png" /></p>
 <p>Abstract Factory Ltd.
 Copyright 2014</p>
-<h1 id="usergroup">Usergroup</h1>
+<h3 id="usergroup">Usergroup</h3>
 <p>First things first, if you have any question, suggestions or just want to spread the love go here:</p>
-<p><a href="https://groups.google.com/forum/#!forum/pipi-beta1"><strong>Usergroup</strong></a></p>
-<p>Now fly little bird, fly!</p>
-<ul>
-<li><a href="http://www.google.com"><code>video</code> Installing with <code>pip</code></a></li>
-<li><a href="http://www.google.com"><code>video</code> Running Software</a></li>
-<li><a href="http://www.google.com"><code>video</code> Adding a new workspace</a></li>
-<li><a href="http://www.google.com"><code>video</code> Adding software</a></li>
-<li><a href="http://www.google.com"><code>video</code> Registering software</a></li>
-<li><a href="http://www.google.com"><code>video</code> Configuring Software</a></li>
-<li><a href="http://www.google.com"><code>video</code> Non-available software</a></li>
-</ul>
-<h1 id="installing-with-pip">Installing with <a href="http://pip.readthedocs.org/en/latest/installing.html"><code>pip</code></a></h1>
-<p>This is what you <em>have</em></p>
-<ul>
-<li>Windows &gt;= 7, x64</li>
-<li><a href="http://www.microsoft.com/en-gb/download/details.aspx?id=30679"><code>link</code> Visual C++ 2012 redist x64</a></li>
-<li><a href="https://www.python.org/download/releases/2.7.6/"><code>link</code> Python == 2.7.6, x64</a></li>
-<li><a href="http://pip.readthedocs.org/en/latest/installing.html"><code>link</code> pip &gt;= 1.5.0</a></li>
-<li><a href="http://git-scm.com/downloads"><code>link</code> git &gt;= 1.9.0</a></li>
-</ul>
-<p>This is what you <em>run</em></p>
-<pre class="prettyprint well"><code class="bash">$ pip install git+https://github.com/abstractfactory/pifou_beta1.git
-$ pip install git+https://github.com/abstractfactory/pigui_beta1.git
-$ pip install git+https://github.com/abstractfactory/piapp_beta1.git
+<h5 id="usergroup_1"><a href="https://groups.google.com/forum/#!forum/pipi-beta1">Usergroup</a></h5>
+<h3 id="installation">Installation</h3>
+<p>You have two options for installing Pipi; either you are a developer or your are a user.</p>
+<h5 id="developer-installation"><a href="installation/developer-installation">Developer installation</a></h5>
+<h5 id="user-installation"><a href="installation/user-installation">User installation</a></h5>
+<h3 id="reference">Reference</h3>
+<p>This beta contains two applications; Dashboard and About. These are what you will use to customise the workflow employed in your studio.</p>
+<h5 id="about"><a href="user-guide/reference#About">About</a></h5>
+<h5 id="dashboard"><a href="user-guide/reference#Dashboard">Dashboard</a></h5>
+<h3 id="configuration">Configuration</h3>
+<p>Once installed, I'm sure you must be bursting with things you would like to try out first. The <a href="user-guide/configuration">Configuration</a> will guide you through some of the things you can to do customise Pipi to you.</p>
+<h5 id="configuration_1"><a href="user-guide/configuration">Configuration</a></h5>
+<h3 id="have-fun">Have fun</h3>
+<p><a href="https://groups.google.com/forum/#!forum/pipi-beta1">Come talk with us</a> and we'll tell you the secret recipe for the perfect pipeline.</p>
+<pre class="prettyprint well"><code class="python">&gt;&gt;&gt; hello@abstractfactory.io
+&gt;&gt;&gt; 
+&gt;&gt;&gt; Abstract Factory
+&gt;&gt;&gt; www.abstractfactory.io
+&gt;&gt;&gt; 
+&gt;&gt;&gt; The Exchange
+&gt;&gt;&gt; 28 London Bridge Street
+&gt;&gt;&gt; London
+&gt;&gt;&gt; SE1 9SG
+&gt;&gt;&gt; 
+&gt;&gt;&gt; Documentation built with MkDocs.
+
 </code></pre>
 
-<p>This is what you <em>do</em></p>
-<pre class="prettyprint well"><code class="bash">$ python .\piapp\dashboard\bin\dashboard.pyw
-</code></pre>
-
-<p>Where <code>.\</code> refers to where <code>pip</code> installed Pipi; most commonly the site-packages of your Python installation.</p>
-<pre class="prettyprint well"><code class="bash">c:\Python27\Libs\site-packages\piapp
-</code></pre>
-
-<h1 id="dependencies">Dependencies</h1>
-<p>Dashboard may complain about missing dependencies. If so, go ahead and also install the <strong>Pipi Dependency Module</strong>.</p>
-<pre class="prettyprint well"><code class="bash">$ pip install git+git://github.com/abstractfactory/pidep.git
-</code></pre>
-
-<p>For convenience, dependencies have been encapsulated within this one package. If you decide later to use your own dependencies, well, then you are free to do so. Here they are.</p>
-<ul>
-<li><a href="https://github.com/abstractfactory/openmetadata"><code>link</code> Open Metadata</a> v0.5</li>
-<li><a href="http://www.riverbankcomputing.co.uk/software/pyqt/download5"><code>link</code> PyQt5</a> Built using Qt 5.1.1</li>
-<li><a href="http://zeromq.org/bindings:python"><code>link</code> PyZMQ</a>  Built using libzmq 4.0.3</li>
-<li><a href="http://msgpack.org/"><code>link</code> Msgpack</a> v0.4.1</li>
-</ul>
-<h1 id="what-happened">What happened?</h1>
-<p>Congratulations, I will assume that nothing went wrong and you're now looking at Dashboard, the entry-point for artists. (If not, <a href="https://groups.google.com/forum/#!forum/pipi-beta1">let's talk</a>).</p>
-<p>At this point, you've got three new packages, sprinkled with sunshine, in your Python 2.7 site-packages. (This is important, beta 1 is only guaranteed to work with Python 2.7, 64-bit, running on Windows, 7 and above)</p>
-<h1 id="more">More</h1>
-<p>You got it!</p>
-<ul>
-<li><a href="http://rfc.abstractfactory.io/spec/23">Specification</a></li>
-<li><a href="http://rfc.abstractfactory.io/spec/25">Requirements</a></li>
-<li><a href="http://rfc.abstractfactory.io/spec/27">Architecture</a></li>
-<li><a href="http://rfc.abstractfactory.io/spec/24">Metadata</a></li>
-<li><a href="http://rfc.abstractfactory.io/spec/31">Configurable Content</a></li>
-<li><a href="http://rfc.abstractfactory.io/spec/28">FAQ</a></li>
-</ul>
-<p>Open Metadata</p>
-<ul>
-<li><a href="http://rfc.abstractfactory.io/spec/10">RFC10</a>: Open Metadata Specification</li>
-<li><a href="http://rfc.abstractfactory.io/spec/12">RFC12</a>: Cascading</li>
-<li><a href="http://rfc.abstractfactory.io/spec/13">RFC13</a>: Task Distribution</li>
-<li><a href="http://rfc.abstractfactory.io/spec/14">RFC14</a>: Temporal Metadata</li>
-<li><a href="http://rfc.abstractfactory.io/spec/15">RFC15</a>: Meta Metadata</li>
-<li><a href="http://rfc.abstractfactory.io/spec/16">RFC16</a>: Blob</li>
-<li><a href="http://rfc.abstractfactory.io/spec/17">RFC17</a>: Cross-referencing</li>
-<li><a href="http://rfc.abstractfactory.io/spec/18">RFC18</a>: Types</li>
-<li><a href="http://rfc.abstractfactory.io/spec/19">RFC19</a>: Storage Agnostic</li>
-<li><a href="http://rfc.abstractfactory.io/spec/20">RFC20</a>: Referencing</li>
-<li><a href="http://rfc.abstractfactory.io/spec/35">RFC35</a>: Garbage Collectio[]</li>
-<li><a href="http://rfc.abstractfactory.io/spec/41">RFC41</a>: Driver</li>
-<li><a href="http://rfc.abstractfactory.io/spec/46">RFC46</a>: Temporal Resolution</li>
-</ul>
 </div>
         </div>
 

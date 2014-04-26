@@ -1,11 +1,16 @@
-site_name: pifou Documentation
+site_name: Pipi Documentation
 docs_dir: 'src'
 pages:
-- [index.md, Getting Started]
-- [configuration.md, Configuration]
-- [api.md, API]
-- [contributing.md, Contributing]
-- [about.md, About]
+- ['index.md', 'Getting Started']
+- ['installation/developer-installation.md', 'Installation', 'Developer Installation']
+- ['installation/user-installation.md', 'Installation', 'User Installation']
+- ['user-guide/first-steps.md', 'User Guide', 'First Steps']
+- ['user-guide/configuration.md', 'User Guide', 'Configuration']
+- ['user-guide/reference.md', 'User Guide', 'Reference']
+- ['user-guide/api.md', 'User Guide', 'API']
+- ['user-guide/faq.md', 'User Guide', 'FAQ']
+- ['contributing.md', 'Contributing']
+- ['about.md', 'About']
 # theme_dir: 'theme'
 theme: 'bootstrap'
 # theme: cerulean
