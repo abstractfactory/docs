@@ -11,10 +11,10 @@ Either have a look at some videos, or follow the instructions below.
 This is what you *have*
 
 * Windows >= 7, x64
-* [`link` Visual C++ 2012 redist x64][redist]
-* [`link` Python == 2.7.6, x64][python]
-* [`link` pip >= 1.5.0][pip]
-* [`link` git >= 1.9.0][git]
+* [`guide` Visual C++ 2012 redist x64][redist]
+* [`guide` Python == 2.7.6, x64][python]
+* [`guide` pip >= 1.5.0][pip]
+* [`guide` git >= 1.9.0][git]
 
 Now, download [`setup_pipi.py`][inst] and either double click it, or:
 
@@ -64,10 +64,10 @@ Enjoy, and [let's talk][usergroup].
 [inst]: https://dl.dropbox.com/s/zzxvako3rko4zqt/setup_pipi.py
 [devinst]: developer-installation
 [userinst]: user-installation
-[redist]: http://www.microsoft.com/en-gb/download/details.aspx?id=30679
-[git]: http://git-scm.com/downloads
-[python]: https://www.python.org/download/releases/2.7.6/
-[pip]: http://pip.readthedocs.org/en/latest/installing.html
+[redist]: ../installing-redist
+[python]: ../installing-python
+[git]: ../installing-git
+[pip]: ../installing-pip
 [usergroup]: https://groups.google.com/forum/#!forum/pipi-beta1
 [Open Metadata]: https://github.com/abstractfactory/openmetadata
 [PyQt5]: http://www.riverbankcomputing.co.uk/software/pyqt/download5

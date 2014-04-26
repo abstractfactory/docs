@@ -4,13 +4,18 @@ pages:
 - ['index.md', 'Getting Started']
 - ['installation/developer-installation.md', 'Installation', 'Developer Installation']
 - ['installation/user-installation.md', 'Installation', 'User Installation']
+- ['installation/installing-pip.md', 'Installation', 'Installing pip']
+- ['installation/installing-git.md', 'Installation', 'Installing git']
+- ['installation/installing-python.md', 'Installation', 'Installing Python']
+- ['installation/installing-redist.md', 'Installation', 'Installing redist']
 - ['user-guide/first-steps.md', 'User Guide', 'First Steps']
 - ['user-guide/configuration.md', 'User Guide', 'Configuration']
 - ['user-guide/reference.md', 'User Guide', 'Reference']
 - ['user-guide/api.md', 'User Guide', 'API']
 - ['user-guide/faq.md', 'User Guide', 'FAQ']
 - ['contributing.md', 'Contributing']
-- ['about.md', 'About']
+- ['about.md', 'About', 'About']
+- ['index-alt.md', 'About', 'Alternative Index']
 # theme_dir: 'theme'
 theme: 'bootstrap'
 # theme: cerulean

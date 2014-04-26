@@ -68,6 +68,22 @@
                             <a href="../user-installation/">User Installation</a>
                         </li>
                     
+                        <li >
+                            <a href="../installing-pip/">Installing pip</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../installing-git/">Installing git</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../installing-python/">Installing Python</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../installing-redist/">Installing redist</a>
+                        </li>
+                    
                     </ul>
                 </li>
             
@@ -76,6 +92,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../user-guide/first-steps/">First Steps</a>
+                        </li>
                     
                         <li >
                             <a href="../../user-guide/configuration/">Configuration</a>
@@ -89,6 +109,10 @@
                             <a href="../../user-guide/api/">API</a>
                         </li>
                     
+                        <li >
+                            <a href="../../user-guide/faq/">FAQ</a>
+                        </li>
+                    
                     </ul>
                 </li>
             
@@ -100,8 +124,19 @@
             
             
             
-                <li >
-                    <a href="../../about/">About</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../about/">About</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../index-alt/">Alternative Index</a>
+                        </li>
+                    
+                    </ul>
                 </li>
             
             
@@ -133,7 +168,7 @@
         <li class="main active"><a href="#kudos-you-chose-the-way-of-the-cool-kids">Kudos, you chose the way of the cool kids.</a></li>
         
     
-        <li class="main "><a href="#installing-with-pip">Installing with pip</a></li>
+        <li class="main "><a href="#installing-with-setup_pipipy">Installing with setup_pipi.py</a></li>
         
     
         <li class="main "><a href="#dependencies">Dependencies</a></li>
@@ -150,35 +185,33 @@
 <p>Either have a look at some videos, or follow the instructions below.</p>
 <ul>
 <li><a href="http://www.google.com"><code>video</code> Preparing Windows</a></li>
-<li><a href="http://www.google.com"><code>video</code> Installing with <code>pip</code></a></li>
+<li><a href="http://www.google.com"><code>video</code> Installing with <code>setup_pipi.py</code></a></li>
 </ul>
-<h1 id="installing-with-pip">Installing with <a href="http://pip.readthedocs.org/en/latest/installing.html"><code>pip</code></a></h1>
+<h1 id="installing-with-setup_pipipy">Installing with <a href="https://dl.dropbox.com/s/zzxvako3rko4zqt/setup_pipi.py"><code>setup_pipi.py</code></a></h1>
 <p>This is what you <em>have</em></p>
 <ul>
 <li>Windows &gt;= 7, x64</li>
-<li><a href="http://www.microsoft.com/en-gb/download/details.aspx?id=30679"><code>link</code> Visual C++ 2012 redist x64</a></li>
-<li><a href="https://www.python.org/download/releases/2.7.6/"><code>link</code> Python == 2.7.6, x64</a></li>
-<li><a href="http://pip.readthedocs.org/en/latest/installing.html"><code>link</code> pip &gt;= 1.5.0</a></li>
-<li><a href="http://git-scm.com/downloads"><code>link</code> git &gt;= 1.9.0</a></li>
+<li><a href="../installing-redist"><code>guide</code> Visual C++ 2012 redist x64</a></li>
+<li><a href="../installing-python"><code>guide</code> Python == 2.7.6, x64</a></li>
+<li><a href="../installing-pip"><code>guide</code> pip &gt;= 1.5.0</a></li>
+<li><a href="../installing-git"><code>guide</code> git &gt;= 1.9.0</a></li>
 </ul>
-<p>This is what you <em>run</em></p>
-<pre class="prettyprint well"><code class="python">$ pip install git+https://github.com/abstractfactory/pifou_beta1.git  git+https://github.com/abstractfactory/pigui_beta1.git git+https://github.com/abstractfactory/piapp_beta1.git
+<p>Now, download <a href="https://dl.dropbox.com/s/zzxvako3rko4zqt/setup_pipi.py"><code>setup_pipi.py</code></a> and either double click it, or:</p>
+<pre class="prettyprint well"><code class="python">$ python setup_pipi.py
 </code></pre>
 
 <p>This is what you <em>do</em></p>
 <pre class="prettyprint well"><code class="bash">$ python .\piapp\willywork\main.pyw
 </code></pre>
 
-<p>Where <code>.\</code> refers to where <code>pip</code> installed Pipi; most commonly the site-packages of your Python installation.</p>
+<p>Where <code>.\</code> refers to where <code>pip</code> installed Pipi; most commonly the site-packages of your Python installation. </p>
+<p>The installer is using <a href="../installing-pip"><code>pip</code></a> and <a href="../installing-git"><code>git</code></a> to install. If you are looking to install Pipi in another directory, consider using <a href="http://www.virtualenv.org/en/latest/">virtualenv</a>.</p>
 <pre class="prettyprint well"><code class="bash">c:\Python27\Libs\site-packages\piapp
 </code></pre>
 
 <h1 id="dependencies">Dependencies</h1>
-<p><code>Willywork</code> is a debug application to test whether Pipi will work. It may complain about missing dependencies; if so, go ahead and also install the <strong>Pipi Dependency Module</strong>.</p>
-<pre class="prettyprint well"><code class="bash">$ pip install git+git://github.com/abstractfactory/pidep.git
-</code></pre>
-
-<p>For convenience, dependencies have been encapsulated within this one package. If you decide later to use your own dependencies, well, then you are free to do so. Here they are.</p>
+<p><code>Willywork</code> is a debug application to test whether everything went well with the installation.</p>
+<p>For convenience, all dependencies to Pipi have been encapsulated within a package called <code>pidep</code>. If you would rather use your own dependencies, remove <code>pidep</code> from your installation and refer to these packages instead.</p>
 <ul>
 <li><a href="https://github.com/abstractfactory/openmetadata"><code>link</code> Open Metadata</a> 0.5</li>
 <li><a href="http://www.riverbankcomputing.co.uk/software/pyqt/download5"><code>link</code> PyQt5</a> Built using Qt 5.1.1</li>

@@ -68,6 +68,22 @@
                             <a href="../../installation/user-installation/">User Installation</a>
                         </li>
                     
+                        <li >
+                            <a href="../../installation/installing-pip/">Installing pip</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../installation/installing-git/">Installing git</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../installation/installing-python/">Installing Python</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../installation/installing-redist/">Installing redist</a>
+                        </li>
+                    
                     </ul>
                 </li>
             
@@ -76,6 +92,10 @@
                 <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../first-steps/">First Steps</a>
+                        </li>
                     
                         <li class="active">
                             <a href="./">Configuration</a>
@@ -89,6 +109,10 @@
                             <a href="../api/">API</a>
                         </li>
                     
+                        <li >
+                            <a href="../faq/">FAQ</a>
+                        </li>
+                    
                     </ul>
                 </li>
             
@@ -100,8 +124,19 @@
             
             
             
-                <li >
-                    <a href="../../about/">About</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../about/">About</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../index-alt/">Alternative Index</a>
+                        </li>
+                    
+                    </ul>
                 </li>
             
             
@@ -111,7 +146,7 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../../installation/user-installation/">
+                    <a rel="next" href="../first-steps/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
@@ -143,6 +178,11 @@
             <li><a href="#cascading-appdata">Cascading appdata</a></li>
         
     
+        <li class="main "><a href="#next">Next</a></li>
+        
+            <li><a href="#first-steps-with-pipi-">First steps with Pipi --&gt;</a></li>
+        
+    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
@@ -157,7 +197,7 @@
 <li><a href="http://www.google.com"><code>video</code> Configuring Software</a></li>
 <li><a href="http://www.google.com"><code>video</code> Non-available software</a></li>
 </ul>
-<h1 id="in-this-version">In this version</h1>
+<h3 id="in-this-version">In this version</h3>
 <p>This beta contains the most fundamental elements of a production pipeline; the part which deals with software and their configuration.</p>
 <ul>
 <li><code>Configuration per-folder</code></li>
@@ -166,7 +206,7 @@
 <li><code>Software installs per-folder</code></li>
 <li><code>Software launching</code></li>
 </ul>
-<h3 id="supported-types-in-about">Supported types in About</h3>
+<h4 id="supported-types-in-about">Supported types in About</h4>
 <p>New metadata entries defaults to string. But you may customise they datatype by specifying a suffix.</p>
 <pre class="prettyprint well"><code class="bash">$ my_integer.int
 $ my_boolean.bool
@@ -181,20 +221,21 @@ $ my_boolean.bool
 </ul>
 <p>See the Open Metadata specification for full details on future support and features.</p>
 <p><a href="http://rfc.abstractfactory.io/spec/10">Open Metadata Specification</a></p>
-<h1 id="not-in-this-version">Not in this version</h1>
+<h3 id="not-in-this-version">Not in this version</h3>
 <p>This beta lacks functionality not immediately visible at first glance.</p>
 <p>Those are</p>
 <ul>
 <li><code>Cascading appdata</code></li>
 <li><code>Metadata renaming</code></li>
 </ul>
-<h3 id="cascading-appdata">Cascading appdata</h3>
+<h4 id="cascading-appdata">Cascading appdata</h4>
 <p>Application configuration should be adding to existing configuration up a hierarchy, but currently does not. Instead, it replaces any previous configuration.</p>
 <pre class="prettyprint well"><code class="python"># Example here..
 
 </code></pre>
 
-<h3></h3>
+<h3 id="next">Next</h3>
+<h4 id="first-steps-with-pipi-"><a href="user-guide/firststeps">First steps with Pipi --&gt;</a></h4>
 </div>
         </div>
 
