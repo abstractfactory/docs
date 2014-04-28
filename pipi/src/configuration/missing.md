@@ -1,13 +1,3 @@
-#### Let's get going
-
-Have a look at some videos, see below for nitpicks of information, and [don't forget to talk][usergroup] about things on your mind.
-
-* [`video` Running Software][Running Software]
-* [`video` Adding a new workspace][Adding a new workspace]
-* [`video` Adding software][Adding software]
-* [`video` Registering software][Registering software]
-* [`video` Configuring Software][Configuring Software]
-* [`video` Non-available software][Non-available software]
 
 ### In this version
 
@@ -56,18 +46,3 @@ Application configuration should be adding to existing configuration up a hierar
 # Example here..
 
 ```
-
-### Next
-
-#### [First steps with Pipi -->][firststeps]
-
-[firststeps]: user-guide/firststeps
-[usergroup]: https://groups.google.com/forum/#!forum/pipi-beta1
-[Running Software]: http://www.google.com
-[Adding a new workspace]: http://www.google.com
-[Adding software]: http://www.google.com
-[Registering software]: http://www.google.com
-[Configuring Software]: http://www.google.com
-[Non-available software]: http://www.google.com
-
-[OMS]: http://rfc.abstractfactory.io/spec/10

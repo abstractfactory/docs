@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>Developer Installation - Pipi Documentation</title>
+        <title>Developer Installation - Pipi Guide</title>
 
         <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -41,7 +41,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href="../..">Pipi Documentation</a>
+            <a class="navbar-brand" href="../..">Pipi Guide</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -69,6 +69,14 @@
                         </li>
                     
                         <li >
+                            <a href="../installing-redist/">Installing redist</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../installing-python/">Installing Python</a>
+                        </li>
+                    
+                        <li >
                             <a href="../installing-pip/">Installing pip</a>
                         </li>
                     
@@ -77,11 +85,72 @@
                         </li>
                     
                         <li >
-                            <a href="../installing-python/">Installing Python</a>
+                            <a href="../installing-pipi/">Installing git</a>
                         </li>
                     
                         <li >
-                            <a href="../installing-redist/">Installing redist</a>
+                            <a href="../adding-to-path/">Adding to PATH</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../trouble/">Having Trouble</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../testing/">Testing</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../configuration/overview/">Overview</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/setting-up-about/">Setting up About</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/setting-up-dashboard/">Setting up Dashboard</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/using-openmetadata/">Using Open Metadata</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/registering-software/">Registering software</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/adding-software/">Adding software</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/adding-new-workspace/">Adding a new workspace</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/running-software/">Running software</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/configuring-software/">Configuring software</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/non-available-software/">Non-available software</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../configuration/missing/">Missing functionality</a>
                         </li>
                     
                     </ul>
@@ -95,10 +164,6 @@
                     
                         <li >
                             <a href="../../user-guide/first-steps/">First Steps</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../user-guide/configuration/">Configuration</a>
                         </li>
                     
                         <li >
@@ -165,64 +230,60 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#kudos-you-chose-the-way-of-the-cool-kids">Kudos, you chose the way of the cool kids.</a></li>
+        <li class="main active"><a href="#developer-installation">Developer Installation</a></li>
+        
+            <li><a href="#kudos-you-chose-the-way-of-the-cool-kids">Kudos, you chose the way of the cool kids.</a></li>
         
     
         <li class="main "><a href="#installing-with-setup_pipipy">Installing with setup_pipi.py</a></li>
         
-    
-        <li class="main "><a href="#dependencies">Dependencies</a></li>
+            <li><a href="#convention">Convention</a></li>
         
-    
-        <li class="main "><a href="#what-happened">What happened?</a></li>
+            <li><a href="#moving-on">Moving on</a></li>
+        
+            <li><a href="#whats-next">What's next?</a></li>
+        
+            <li><a href="#configuring-pipi-">Configuring Pipi -&gt;</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
+<h3 id="developer-installation">Developer Installation</h3>
 <h4 id="kudos-you-chose-the-way-of-the-cool-kids">Kudos, you chose the way of the cool kids.</h4>
 <p>Either have a look at some videos, or follow the instructions below.</p>
 <ul>
 <li><a href="http://www.google.com"><code>video</code> Preparing Windows</a></li>
-<li><a href="http://www.google.com"><code>video</code> Installing with <code>setup_pipi.py</code></a></li>
+<li><a href="http://www.google.com"><code>video</code> Installing <code>Pipi</code></a></li>
 </ul>
-<h1 id="installing-with-setup_pipipy">Installing with <a href="https://dl.dropbox.com/s/zzxvako3rko4zqt/setup_pipi.py"><code>setup_pipi.py</code></a></h1>
-<p>This is what you <em>have</em></p>
+<h1 id="installing-with-setup_pipipy">Installing with <code>setup_pipi.py</code></h1>
+<p><img alt="" src="https://dl.dropbox.com/s/e0pwr42u1f6xari/developer-installation.png" /></p>
+<h3 id="convention">Convention</h3>
+<p>These are some of the conventions used throughout this and other guides. When you see these characters preceeding what may appear as code, here is what they are asking of you:</p>
 <ul>
-<li>Windows &gt;= 7, x64</li>
-<li><a href="../installing-redist"><code>guide</code> Visual C++ 2012 redist x64</a></li>
-<li><a href="../installing-python"><code>guide</code> Python == 2.7.6, x64</a></li>
-<li><a href="../installing-pip"><code>guide</code> pip &gt;= 1.5.0</a></li>
-<li><a href="../installing-git"><code>guide</code> git &gt;= 1.9.0</a></li>
+<li><code>$</code> - Anything coming after me, is meant to be run from a terminal/command prompt..</li>
+<li><code>&gt;&gt;&gt;</code> - ..whereas this is meant to be run from a Python interpreter.</li>
+<li><code>./</code> - Refers to your installation path, most likely c:\python27\lib\site-packages</li>
 </ul>
-<p>Now, download <a href="https://dl.dropbox.com/s/zzxvako3rko4zqt/setup_pipi.py"><code>setup_pipi.py</code></a> and either double click it, or:</p>
-<pre class="prettyprint well"><code class="python">$ python setup_pipi.py
+<p>For example, to run Python from the installation directory and then import something, I would type:</p>
+<pre class="prettyprint well"><code>$ ./python
+&gt;&gt;&gt; import this
 </code></pre>
 
-<p>This is what you <em>do</em></p>
-<pre class="prettyprint well"><code class="bash">$ python .\piapp\willywork\main.pyw
-</code></pre>
-
-<p>Where <code>.\</code> refers to where <code>pip</code> installed Pipi; most commonly the site-packages of your Python installation. </p>
-<p>The installer is using <a href="../installing-pip"><code>pip</code></a> and <a href="../installing-git"><code>git</code></a> to install. If you are looking to install Pipi in another directory, consider using <a href="http://www.virtualenv.org/en/latest/">virtualenv</a>.</p>
-<pre class="prettyprint well"><code class="bash">c:\Python27\Libs\site-packages\piapp
-</code></pre>
-
-<h1 id="dependencies">Dependencies</h1>
-<p><code>Willywork</code> is a debug application to test whether everything went well with the installation.</p>
-<p>For convenience, all dependencies to Pipi have been encapsulated within a package called <code>pidep</code>. If you would rather use your own dependencies, remove <code>pidep</code> from your installation and refer to these packages instead.</p>
-<ul>
-<li><a href="https://github.com/abstractfactory/openmetadata"><code>link</code> Open Metadata</a> 0.5</li>
-<li><a href="http://www.riverbankcomputing.co.uk/software/pyqt/download5"><code>link</code> PyQt5</a> Built using Qt 5.1.1</li>
-<li><a href="http://zeromq.org/bindings:python"><code>link</code> PyZMQ</a> Built using libzmq 4.0.3</li>
-<li><a href="http://msgpack.org/"><code>link</code> Msgpack</a> 0.4.1</li>
-</ul>
-<h1 id="what-happened">What happened?</h1>
-<p>Congratulations, I will assume that nothing went wrong and you're now looking at Willywork, telling you he is hard at work.</p>
-<p>(If not, <a href="https://groups.google.com/forum/#!forum/pipi-beta1">let's talk</a>).</p>
-<p>At this point, you've got three new packages, sprinkled with sunshine, in your Python 2.7 site-packages. (This is important, beta 1 is only guaranteed to work with Python 2.7, 64-bit, running on Windows, 7 and above)</p>
-<p>Enjoy, and <a href="https://groups.google.com/forum/#!forum/pipi-beta1">let's talk</a>.</p>
+<h3 id="moving-on">Moving on</h3>
+<p>It is assumed that you are running either Windows 7 or 8. Linux and OSX version are important, but not included in this release. If you already have the VS2012 redistributable, Python, pip and git set up, you can skip to <a href="../installing-pipi">5 - Installing pipi</a></p>
+<ol>
+<li><a href="../installing-redist"><code>guide</code> Installing redist</a></li>
+<li><a href="../installing-python"><code>guide</code> Installing python</a></li>
+<li><a href="../installing-pip"><code>guide</code> Installing pip</a></li>
+<li><a href="../installing-git"><code>guide</code> Installing git</a></li>
+<li><a href="../installing-pipi"><code>guide</code> Installing pipi</a></li>
+<li><a href="../testing"><code>guide</code> Test</a></li>
+</ol>
+<h3 id="whats-next">What's next?</h3>
+<p>Such enthusiasm! Go right ahead to:</p>
+<h3 id="configuring-pipi-"><a href="../../configuration/overview"><code>Configuring Pipi -&gt;</code></a></h3>
 </div>
         </div>
 

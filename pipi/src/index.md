@@ -1,41 +1,43 @@
 <!-- ![](../img/title.png) -->
-![](https://dl.dropbox.com/s/x6gap4a13jekdnz/title.png)
+<!-- ![](https://dl.dropbox.com/s/x6gap4a13jekdnz/title.png) -->
+![](https://dl.dropbox.com/s/uwh6k3ycar6l7gz/the_general_problem.png)
 <!-- ![](https://www.dropbox.com/s/x6gap4a13jekdnz/title.png) -->
 
-Abstract Factory Ltd.
-Copyright 2014
+# The *Amazing* Guide to **Pipi** `(tm)`
 
-### Usergroup
+Glad you're here, we were just talking about you. Greg was telling me that he doesn't think you have what it takes to finish this guide. I was all like *"No way!"*, like, trying to defend you, but he was still going like *"Yes way!"*. Now, which'll it be?
 
-First things first, if you have any question, suggestions or just want to spread the love go here:
+### Community
 
-##### [Usergroup][usergroup]
+First things first, if you have any problems, questions, suggestions or just want to spread the love, go here:
+
+* [`community` Usergroup][usergroup]
 
 ### Installation
 
-You have two options for installing Pipi; you are either a developer or user.
+You have two options for installing Pipi; you are either a developer or you are a user.
 
-##### [Developer installation][devinst]
-##### [User installation][userinst]
+* [`guide` Developer installation][devinst]
+* [`guide` User installation][userinst]
 
 ### Configuration
 
 Once installed, I'm sure you must be bursting with things you would like to try out first. The [Configuration][conf] will guide you through some of the things you can to do customise Pipi to you.
 
-##### [Configuration][conf]
+* [`guide` Configuration][conf]
 
 ### First steps
 
 Wonderful, you are well on your way to becoming a Pipi Jedi. First steps will prepare you for the real world and mentally train you for the challanges that await.
 
-##### [First steps][firststeps]
+* [`guide` First steps][firststeps]
 
 ### Reference
 
 This beta contains two applications; Dashboard and About. These are what you will use to customise the workflow employed in your studio.
 
-##### [About][about]
-##### [Dashboard][dash]
+* [`reference` About][about]
+* [`reference` Dashboard][dash]
 
 ### Have fun
 
@@ -43,8 +45,10 @@ This beta contains two applications; Dashboard and About. These are what you wil
 
 Once things have been said and done, the [FAQ][] is where you'll find the most awesome of questions and answers.
 
-##### [FAQ][]
-##### [Usergroup][usergroup]
+* [`reference` FAQ][FAQ]
+* [`community` Usergroup][usergroup]
+
+---
 
 ```python
 >>> hello@abstractfactory.io
@@ -61,11 +65,11 @@ Once things have been said and done, the [FAQ][] is where you'll find the most a
 
 ```
 
-[firststeps]: user-guide/firststeps
+[firststeps]: user-guide/first-steps
 [FAQ]: user-guide/faq
 [about]: user-guide/reference#About
 [dash]: user-guide/reference#Dashboard
-[conf]: user-guide/configuration
+[conf]: configuration/overview
 [api]: user-guide/api
 [devinst]: installation/developer-installation
 [userinst]: installation/user-installation
