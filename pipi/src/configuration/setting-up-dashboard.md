@@ -7,52 +7,75 @@
 Dashboard relies on displaying a limited set of options for your artists. The starting-point of these options lie in your `rootDir`.
 
 ```
-$ mkdir c:\studio\content\jobs
+$ mkdir c:\studio
 ```
 
-As good as any. For tinkering, I'd recommend making a new folder someplace. Down the line, this is where you will host all of your studios content. But for now, let's populate it with tinker-worthy gems of prosperity.
+As good as any. For tinkering, I'd recommend making a new hierarchy someplace. Down the line, this is where you host all of your content. But for now, let's populate it something to tinker with.
 
 ```
-$ cd c:\studio\content\jobs
+# Content to tinker with
+$ cd c:\studio
+$ mkdir content\jobs
+$ cd content\jobs
 $ mkdir spider-man
 $ mkdir star-wars
 $ mkdir hulk
 $ cd hulk
-$ mkdor shot1
-$ mkdor shot2
-$ mkdor shot3
+$ mkdir shot1
+$ mkdir shot2
+$ mkdir shot3
+
+# The resulting hierarchy will look like this
+studio
+	content
+		jobs
+			spider-man
+			star-wars
+			hulk
+				shot1
+				shot2
+				shot3
 ```
 
-### Per-user metadata with `About`
+### Educate your OS
 
-![](https://dl.dropbox.com/s/qxutdk19croorax/rootDir.png)
 
-Ah, finally we get to see what `About` is all about. (pun)
+Get ready, this is about to be your first configuration, as we will finally get to see what `About` is all about. (pun)
 
-1. Right-click on your user and `Open in About`
+* Right-click on your user and `Open in About`
+
 ```
+# Most commonly located here
 $ c:\users\marcus
 ```
-2. Add a new entry called `pipi`, use shift-enter to finish.
-3. Inside of `pipi`, add `rootDir`, no shift this time.
-4. Inside of `rootDir`, type `c:\studio`
 
-* Note; There is a known bug with shift-enter. If you find shift not making any difference, delete the misbehaving entry by hitting `delete`, and try again.
+- ![][metadata-pipi] 1. Add a new entry called `pipi`, use shift-enter to finish. 
+- ![][metadata-rootdir] 2. Inside of `pipi`, add `rootDir`, no shift this time. 
+- ![][metadata-studio] 3. Inside of `rootDir`, type `c:\studio`
 
-### Per-OS environment variable
+> If you make a mistake, hit the `delete` key to remove an entry and try again.
 
-Alternatively, you may set an environment variable.
+This is what you should be ending up with.
 
-1. Add `ROOTDIR`
-2. Set `ROOTDIR` to where your `rootDir` is located.
-
-See [Adding Executables to your `PATH`][PATH] for more details on how to accomplish this.
+![](https://dl.dropbox.com/s/qxutdk19croorax/rootDir.png)
 
 ### A shorter cut
 
 I don't know about you, but if it were me, I'd have the executable of Dashboard close-by. How about we add a shortcut to our taskbar?
 
+1. Create a shortcut to `pythonw.exe`, most commonly located in `c:\python27\pythonw.exe`
+2. In its properties, add the full path of /piapp/dashboard/bin/dashboard.pyw
+
+```
+# For example
+$ c:\python27\python.pyw C:\Python27\Lib\site-packages\piapp\dashboard\bin\dashboard.pyw
+```
+
+3. Now drag this shortcut to your taskbar, or wherever you'd like it to be.
 
 ### [`Registering software ->`](../registering-software)
 
+[metadata-pipi]: https://dl.dropbox.com/s/v3vc7a8p6mi2euu/metadata-pipi.png
+[metadata-rootdir]: https://dl.dropbox.com/s/kde00zqccwfj15a/metadata-rootdir.png
+[metadata-studio]: https://dl.dropbox.com/s/yief4pt7fiw42f3/metadata-studio.png
 [PATH]: ../../installation/adding-to-path

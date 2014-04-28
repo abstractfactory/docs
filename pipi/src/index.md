@@ -22,15 +22,9 @@ You have two options for installing Pipi; you are either a developer or you are 
 
 ### Configuration
 
-Once installed, I'm sure you must be bursting with things you would like to try out first. The [Configuration][conf] will guide you through some of the things you can to do customise Pipi to you.
+Once installed, you must be bursting with things you'd like to try out first. The [Configuration][conf] will guide you through some of the things you can to do customise Pipi to you.
 
 * [`guide` Configuration][conf]
-
-### First steps
-
-Wonderful, you are well on your way to becoming a Pipi Jedi. First steps will prepare you for the real world and mentally train you for the challanges that await.
-
-* [`guide` First steps][firststeps]
 
 ### Reference
 

@@ -122,10 +122,6 @@
                         </li>
                     
                         <li >
-                            <a href="../using-openmetadata/">Using Open Metadata</a>
-                        </li>
-                    
-                        <li >
                             <a href="../registering-software/">Registering software</a>
                         </li>
                     
@@ -150,7 +146,15 @@
                         </li>
                     
                         <li >
+                            <a href="../cross-platform/">Cross-platform</a>
+                        </li>
+                    
+                        <li >
                             <a href="../missing/">Missing functionality</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../using-openmetadata/">Using Open Metadata</a>
                         </li>
                     
                     </ul>
@@ -161,10 +165,6 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                    
-                        <li >
-                            <a href="../../user-guide/first-steps/">First Steps</a>
-                        </li>
                     
                         <li >
                             <a href="../../user-guide/reference/">Reference</a>
@@ -216,7 +216,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../using-openmetadata/">
+                    <a rel="prev" href="../registering-software/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -236,10 +236,7 @@
         <li class="main "><a href="#lovely-rootdir">Lovely rootDir</a></li>
         
     
-        <li class="main "><a href="#per-user-metadata-with-about">Per-user metadata with About</a></li>
-        
-    
-        <li class="main "><a href="#per-os-environment-variable">Per-OS environment variable</a></li>
+        <li class="main "><a href="#educate-your-os">Educate your OS</a></li>
         
     
         <li class="main "><a href="#a-shorter-cut">A shorter cut</a></li>
@@ -256,48 +253,66 @@
 <p><img alt="" src="https://dl.dropbox.com/s/lhz9qa3qlmmheue/videoplaceholder.png" /></p>
 <h3 id="lovely-rootdir">Lovely <code>rootDir</code></h3>
 <p>Dashboard relies on displaying a limited set of options for your artists. The starting-point of these options lie in your <code>rootDir</code>.</p>
-<pre class="prettyprint well"><code>$ mkdir c:\studio\content\jobs
+<pre class="prettyprint well"><code>$ mkdir c:\studio
 </code></pre>
 
-<p>As good as any. For tinkering, I'd recommend making a new folder someplace. Down the line, this is where you will host all of your studios content. But for now, let's populate it with tinker-worthy gems of prosperity.</p>
-<pre class="prettyprint well"><code>$ cd c:\studio\content\jobs
+<p>As good as any. For tinkering, I'd recommend making a new hierarchy someplace. Down the line, this is where you host all of your content. But for now, let's populate it something to tinker with.</p>
+<pre class="prettyprint well"><code># Content to tinker with
+$ cd c:\studio
+$ mkdir content\jobs
+$ cd content\jobs
 $ mkdir spider-man
 $ mkdir star-wars
 $ mkdir hulk
 $ cd hulk
-$ mkdor shot1
-$ mkdor shot2
-$ mkdor shot3
+$ mkdir shot1
+$ mkdir shot2
+$ mkdir shot3
+
+# The resulting hierarchy will look like this
+studio
+    content
+        jobs
+            spider-man
+            star-wars
+            hulk
+                shot1
+                shot2
+                shot3
 </code></pre>
 
-<h3 id="per-user-metadata-with-about">Per-user metadata with <code>About</code></h3>
-<p><img alt="" src="https://dl.dropbox.com/s/qxutdk19croorax/rootDir.png" /></p>
-<p>Ah, finally we get to see what <code>About</code> is all about. (pun)</p>
-<ol>
+<h3 id="educate-your-os">Educate your OS</h3>
+<p>Get ready, this is about to be your first configuration, as we will finally get to see what <code>About</code> is all about. (pun)</p>
+<ul>
 <li>Right-click on your user and <code>Open in About</code></li>
-</ol>
-<pre class="prettyprint well"><code>$ c:\users\marcus
+</ul>
+<pre class="prettyprint well"><code># Most commonly located here
+$ c:\users\marcus
 </code></pre>
 
-<ol>
-<li>Add a new entry called <code>pipi</code>, use shift-enter to finish.</li>
-<li>Inside of <code>pipi</code>, add <code>rootDir</code>, no shift this time.</li>
-<li>
-<p>Inside of <code>rootDir</code>, type <code>c:\studio</code></p>
-</li>
-<li>
-<p>Note; There is a known bug with shift-enter. If you find shift not making any difference, delete the misbehaving entry by hitting <code>delete</code>, and try again.</p>
-</li>
-</ol>
-<h3 id="per-os-environment-variable">Per-OS environment variable</h3>
-<p>Alternatively, you may set an environment variable.</p>
-<ol>
-<li>Add <code>ROOTDIR</code></li>
-<li>Set <code>ROOTDIR</code> to where your <code>rootDir</code> is located.</li>
-</ol>
-<p>See <a href="../../installation/adding-to-path">Adding Executables to your <code>PATH</code></a> for more details on how to accomplish this.</p>
+<ul>
+<li><img alt="" src="https://dl.dropbox.com/s/v3vc7a8p6mi2euu/metadata-pipi.png" /> 1. Add a new entry called <code>pipi</code>, use shift-enter to finish. </li>
+<li><img alt="" src="https://dl.dropbox.com/s/kde00zqccwfj15a/metadata-rootdir.png" /> 2. Inside of <code>pipi</code>, add <code>rootDir</code>, no shift this time. </li>
+<li><img alt="" src="https://dl.dropbox.com/s/yief4pt7fiw42f3/metadata-studio.png" /> 3. Inside of <code>rootDir</code>, type <code>c:\studio</code></li>
+</ul>
+<blockquote>
+<p>If you make a mistake, hit the <code>delete</code> key to remove an entry and try again.</p>
+</blockquote>
+<p>This is what you should be ending up with.</p>
+<p><img alt="" src="https://dl.dropbox.com/s/qxutdk19croorax/rootDir.png" /></p>
 <h3 id="a-shorter-cut">A shorter cut</h3>
 <p>I don't know about you, but if it were me, I'd have the executable of Dashboard close-by. How about we add a shortcut to our taskbar?</p>
+<ol>
+<li>Create a shortcut to <code>pythonw.exe</code>, most commonly located in <code>c:\python27\pythonw.exe</code></li>
+<li>In its properties, add the full path of /piapp/dashboard/bin/dashboard.pyw</li>
+</ol>
+<pre class="prettyprint well"><code># For example
+$ c:\python27\python.pyw C:\Python27\Lib\site-packages\piapp\dashboard\bin\dashboard.pyw
+</code></pre>
+
+<ol>
+<li>Now drag this shortcut to your taskbar, or wherever you'd like it to be.</li>
+</ol>
 <h3 id="registering-software-"><a href="../registering-software"><code>Registering software -&gt;</code></a></h3>
 </div>
         </div>

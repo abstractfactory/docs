@@ -122,10 +122,6 @@
                         </li>
                     
                         <li >
-                            <a href="../using-openmetadata/">Using Open Metadata</a>
-                        </li>
-                    
-                        <li >
                             <a href="../registering-software/">Registering software</a>
                         </li>
                     
@@ -150,7 +146,15 @@
                         </li>
                     
                         <li >
+                            <a href="../cross-platform/">Cross-platform</a>
+                        </li>
+                    
+                        <li >
                             <a href="../missing/">Missing functionality</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../using-openmetadata/">Using Open Metadata</a>
                         </li>
                     
                     </ul>
@@ -161,10 +165,6 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                    
-                        <li >
-                            <a href="../../user-guide/first-steps/">First Steps</a>
-                        </li>
                     
                         <li >
                             <a href="../../user-guide/reference/">Reference</a>
@@ -230,15 +230,73 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#running-software">Running software</a></li>
+        <li class="main active"><a href="#configuring-software">Configuring software</a></li>
+        
+    
+        <li class="main "><a href="#time-for-your-reward">Time for your reward</a></li>
+        
+    
+        <li class="main "><a href="#args-and-kwargs">Args and Kwargs</a></li>
+        
+    
+        <li class="main "><a href="#environment">Environment</a></li>
+        
+    
+        <li class="main "><a href="#configuring-with-pipi">Configuring with Pipi</a></li>
+        
+    
+        <li class="main "><a href="#meatball-and-pasta">Meatball and pasta</a></li>
+        
+    
+        <li class="main "><a href="#non-available-software-">Non-available software -&gt;</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h3 id="running-software">Running software</h3>
-<p>Lorem</p>
+<h3 id="configuring-software">Configuring software</h3>
+<p><img alt="" src="https://dl.dropbox.com/s/lhz9qa3qlmmheue/videoplaceholder.png" /></p>
+<h3 id="time-for-your-reward">Time for your reward</h3>
+<p>I bet you're pretty stumped by now. Having gone through all of these guides.. for what? To start <code>notepad</code>? No no no.</p>
+<p>The first thing we need to do, is move away from <code>notepad</code>. It isn't worthy of the awesum-sauce we are about to sprinkle upon our software. We are about to configure the manner in which software is launched. But first, let's educate ourselves about some fundamentals of software configuration.</p>
+<h3 id="args-and-kwargs">Args and Kwargs</h3>
+<p>Highly-configurable software sometimes enable you to run it with a pre-determined set of options; <code>flags</code>. In programming-land, there is a similar concept to <code>flags</code> called <code>arguments</code> or <code>parameters</code>, often shortened to <code>args</code>. <code>args</code> are value-less keys; meaning they only contain a name. Their complement, <code>kwargs</code>, stands for key-word arguments and contains both a name, and a value; a.k.a. <code>key/value pair</code>.</p>
+<pre class="prettyprint well"><code># Running software with args
+c:\program files\autodesk\maya2014\bin\maya.exe -hideConsole
+
+# Running software with kwargs
+c:\program files\autodesk\maya2014\bin\maya.exe -proj c:\studio\hulk\shot5
+
+</code></pre>
+
+<h3 id="environment">Environment</h3>
+<p>Some software utilise your environment. For such software, you may be interested in bending this environment to suit your needs. The environment may be modified in such a way that the only one making use of it, is your executed software.</p>
+<pre class="prettyprint well"><code>$ set PYTHONPATH=c:\studio\content\jobs\hulk\appdata\maya.app\scripts
+$ maya
+</code></pre>
+
+<p>There. We're running <code>Maya</code>, using our modified environment.</p>
+<h3 id="configuring-with-pipi">Configuring with Pipi</h3>
+<p>You knew it would come to this. :) The Pipi-equivalent of above actions looks like this.</p>
+<pre class="prettyprint well"><code>&gt;&gt;&gt; import os
+&gt;&gt;&gt; import openmetadata
+&gt;&gt;&gt;
+&gt;&gt;&gt; # Gather data
+&gt;&gt;&gt; maya = r'c:\studio\content\jobs\hulk\appdata\maya.app'
+&gt;&gt;&gt; workspace = r'c:\studio\content\jobs\hulk\shot5'
+&gt;&gt;&gt; PYTHONPATH = os.path.join(maya, 'scripts')
+&gt;&gt;&gt;
+&gt;&gt;&gt; # Finally, record our changes into our installed software
+&gt;&gt;&gt; openmetadata.write(maya, 'args\-hideConsole.flag')
+&gt;&gt;&gt; openmetadata.write(maya, 'kwargs\-proj', workspace)
+&gt;&gt;&gt; openmetadata.write(maya, 'environment\PYTHONPATH', PYTHONPATH)
+</code></pre>
+
+<p>If you are uncomfortable with looking at code, have a look at the video above for how this is done using About.</p>
+<h3 id="meatball-and-pasta">Meatball and pasta</h3>
+<p>And that is it. The next time you run <code>Maya</code> from Dashboard, it will be without a console, running under your specified <code>workspace</code> and including our modified environment.</p>
+<h3 id="non-available-software-"><a href="../non-available-software"><code>Non-available software -&gt;</code></a></h3>
 </div>
         </div>
 

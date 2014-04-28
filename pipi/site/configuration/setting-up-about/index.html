@@ -122,10 +122,6 @@
                         </li>
                     
                         <li >
-                            <a href="../using-openmetadata/">Using Open Metadata</a>
-                        </li>
-                    
-                        <li >
                             <a href="../registering-software/">Registering software</a>
                         </li>
                     
@@ -150,7 +146,15 @@
                         </li>
                     
                         <li >
+                            <a href="../cross-platform/">Cross-platform</a>
+                        </li>
+                    
+                        <li >
                             <a href="../missing/">Missing functionality</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../using-openmetadata/">Using Open Metadata</a>
                         </li>
                     
                     </ul>
@@ -161,10 +165,6 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                    
-                        <li >
-                            <a href="../../user-guide/first-steps/">First Steps</a>
-                        </li>
                     
                         <li >
                             <a href="../../user-guide/reference/">Reference</a>
@@ -233,6 +233,9 @@
         <li class="main active"><a href="#setting-up-about">Setting up About</a></li>
         
     
+        <li class="main "><a href="#adding-to-context-menu">Adding to context menu</a></li>
+        
+    
         <li class="main "><a href="#removing-the-context-menu-item">Removing the context menu item</a></li>
         
     
@@ -244,18 +247,20 @@
             <div class="col-md-9" role="main">
 
 <h3 id="setting-up-about">Setting up <code>About</code></h3>
+<p><img alt="" src="https://dl.dropbox.com/s/lhz9qa3qlmmheue/videoplaceholder.png" /></p>
+<h3 id="adding-to-context-menu">Adding to context menu</h3>
 <p><img alt="" src="https://dl.dropbox.com/s/cj16fg8z24pq9u3/setting-up-about.png" /></p>
 <p>Configuration diverges into <code>About</code>. You'll configure all sorts of things here. Everything, in fact. You'll configure everything in <code>About</code>, so get cozy and let's go.</p>
 <pre class="prettyprint well"><code>$ python /piapp/about/bin/windows_contextmenu.py
 </code></pre>
 
 <p>About, in fact, is so important that we will spend a moment to educate the operating system about its presence.</p>
-<p>To do this, we will generate a <code>registry modification</code> with reference to the <code>About</code> executable; <code>piapp/about/bin/about.pyw</code>. This modification will append this executable onto your right-click menu.</p>
-<p>If you would rather not dilute your right-click options, see here for instructions on how to perform the tasks (that you would be missing out on) by hand.</p>
+<p>To do this, we will generate a <code>registry modification</code> with reference to the <code>About</code> executable. This modification will append this executable onto your right-click menu.</p>
+<p><em>If you would rather not dilute your right-click options, see here for instructions on how to perform the tasks (that you would be missing out on) by hand.</em></p>
 <ul>
 <li><a href="../using-openmetadata"><code>guide</code> Manual Configuration</a></li>
 </ul>
-<p>Otherwise, run the <code>.reg</code> file, confirm with Windows that this is what you want and that is it. Well done! <em>*pat on back</em>*</p>
+<p>Otherwise, run the <code>.reg</code> file, confirm with Windows that this is what you want and that's it. Well done! <em>*pat on back</em>*</p>
 <p><img alt="" src="https://dl.dropbox.com/s/zvd15c2kgi1piy4/setting-up-about2.png" /></p>
 <h3 id="removing-the-context-menu-item">Removing the context menu item</h3>
 <p>Change your mind? No need to fret. If you look within the <code>.reg</code> file, you will notice two entries; one within the other. Remove the parent from your registry and all is well with the world.</p>

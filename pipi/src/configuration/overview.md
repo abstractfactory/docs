@@ -9,7 +9,7 @@ Sort of a chicken'n'egg problem, I'm sure you agree. What I meant to say was; to
 * [`guide` Setting up About](../setting-up-about)
 * [`guide` Setting up Dashboard](../setting-up-dashboard)
 
-Awesome. Now let us embark upon tailoring Pipi to suit `you`. The following guides are meant to be followed in the order given, but you are adventurous and daring. What happens next is up to you.
+Awesome. Now let us embark upon tailoring Pipi to suit `you`. The following guides are meant to be followed in the order given, but you are adventurous and daring. What happens next is out of my control.
 
 * [`guide` Registering software](../registering-software)
 * [`guide` Running Software](../running-software)

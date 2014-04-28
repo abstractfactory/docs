@@ -19,12 +19,14 @@ These are some of the conventions used throughout this and other guides. When yo
 * `$` - Anything coming after me, is meant to be run from a terminal/command prompt..
 * `>>>` - ..whereas this is meant to be run from a Python interpreter.
 * `./` - Refers to your installation path, most likely c:\python27\lib\site-packages
+* `# ` - This is a comment
 
 For example, to run Python from the installation directory and then import something, I would type:
 
 ```
 $ ./python
 >>> import this
+# That wasn't too hard, was it?
 ```
 
 ### Moving on
