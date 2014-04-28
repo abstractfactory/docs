@@ -9,7 +9,7 @@ pages:
 - ['installation/installing-python.md', 'Installation', 'Installing Python']
 - ['installation/installing-pip.md', 'Installation', 'Installing pip']
 - ['installation/installing-git.md', 'Installation', 'Installing git']
-- ['installation/installing-pipi.md', 'Installation', 'Installing git']
+- ['installation/installing-pipi.md', 'Installation', 'Installing pipi']
 - ['installation/adding-to-path.md', 'Installation', 'Adding to PATH']
 - ['installation/trouble.md', 'Installation', 'Having Trouble']
 - ['installation/testing.md', 'Installation', 'Testing']

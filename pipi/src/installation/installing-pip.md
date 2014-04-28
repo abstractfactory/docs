@@ -11,7 +11,7 @@ $ python get-pip.py
 
 ### Having trouble?
 
-3. Your terminal may not recognise `python` as a valid command. If so, try double-clicking on it from your file-browser. Your operating system may be better at figuring out what to do with it.
+3. Your terminal may not recognise `python` as a valid command. If so, try double-clicking on `get-pip.py` from your file-browser. Your operating system may be better at figuring out what to do with it.
 
 4. Alternatively, you could add your Python installation to your PATH and thus make it available from your terminal.
 
