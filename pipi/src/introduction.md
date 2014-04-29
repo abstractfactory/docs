@@ -1,43 +1,26 @@
-### Introduction
-
-![](https://dl.dropbox.com/s/lhz9qa3qlmmheue/videoplaceholder.png)
 
 #### You made it! Glad to have you here, let's get started.
 
-We are **Abstract Factory** and we're building the world's greatest **Digital Asset Management System** called **Pipi**.
+We are **Abstract Factory** and we're building the world's greatest **Digital Asset Management System** called **Pipi**. The beta you've got your cursor under is the first step in this great journey, and in this video I'll give you a taste of what you are about to install.
 
-The beta you've got your cursor under is the first step in this great journey, and in this video, I'll walk you through this guide in one fell swoop with the intention, not that you follow along, but that you get a taste of what lies ahead.
+### Introduction
 
-When you're all juiced up, let's carry on.
+<iframe width="853" height="480" src="//www.youtube.com/embed/2WE26Wnjsic" frameborder="0" allowfullscreen></iframe>
 
-### About
+### Installing software
 
-![](https://dl.dropbox.com/s/lhz9qa3qlmmheue/videoplaceholder.png)
+<iframe width="853" height="480" src="//www.youtube.com/embed/MKfXN9oAg4w" frameborder="0" allowfullscreen></iframe>
 
-#### The right tool for the metajob
+### Custom Software
 
-About is a front-end for Open Metadata.
+<iframe width="853" height="480" src="//www.youtube.com/embed/luZB_LTELoU" frameborder="0" allowfullscreen></iframe>
 
-Open Metadata is about associating metadata to folders on your file-system and is what is used throughout Pipi for both configuration and user-metadata such as shot descriptions or asset relationships.
+### Configuring Software
 
-Cheat Sheet
+<iframe width="853" height="480" src="//www.youtube.com/embed/Bh3wXIBvMl4" frameborder="0" allowfullscreen></iframe>
 
-* Click at bottom to create `entry`
-* Shift-enter to create `group`
-* Middle-click to `scroll`
+#### Awesum-sauce
 
-### Dashboard
-
-![](https://dl.dropbox.com/s/lhz9qa3qlmmheue/videoplaceholder.png)
-
-#### Providing context
-
-The entry-point for artists. This is where they utilise the configuration set via About for their particular `task` and ultimately run software.
-
-Cheat Sheet
-
-* Click at bottom to create `workspace`
-* Middle-click to `scroll`
-
+You are ready to install. :) Head on back to the main page, and choose your destiny!
 
 ### [`<- Back to home`](../)

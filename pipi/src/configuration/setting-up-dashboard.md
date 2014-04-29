@@ -48,9 +48,8 @@ Get ready, this is about to be your first configuration, as we will finally get 
 $ c:\users\marcus
 ```
 
-1. Add a new entry called `pipi`, use shift-enter to finish. 
-2. Inside of `pipi`, add `rootDir`, no shift this time. 
-3. Inside of `rootDir`, type `c:\studio`
+1. Add a `rootDir` entry
+2. In the `rootDir` editor, type `c:\studio`
 
 > If you make a mistake, hit the `delete` key to remove an entry and try again.
 

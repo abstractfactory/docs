@@ -3,9 +3,9 @@
 ![](https://dl.dropbox.com/s/uwh6k3ycar6l7gz/the_general_problem.png)
 <!-- ![](https://www.dropbox.com/s/x6gap4a13jekdnz/title.png) -->
 
-# The *Amazing* Guide to **Pipi** `(tm)`
+# The *Amazing* Guide to **Pipi** `(beta)`
 
-Glad you're here, we were just talking about you. Greg was telling me that he doesn't think you have what it takes to finish this guide. I was all like *"No way!"*, like, trying to defend you, but he was still going like *"Yes way!"*. Now, which'll it be?
+Glad you're here, we were just talking about you. Greg was telling me that he doesn't think you have what it takes to finish this guide. I was all like *"No way!"*, like, trying to defend you, but he was still going like *"Yes way!"*. Let's not give him the satisfaction!
 
 ### Introduction
 
