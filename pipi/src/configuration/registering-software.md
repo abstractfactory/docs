@@ -20,7 +20,7 @@ Anything located on your PATH is accessible via a single keyword.
 
 ### Showing ya' true colors
 
-We could do add this:
+We could add this:
 
 ```
 c:\Windows
@@ -35,7 +35,7 @@ $ echo "c:\Windows\notepad.exe" > c:\bin\notepad.bat
 
 As good as any. Now go ahead and [add this folder to your PATH][PATH]. By doing it this way, we gain a finer level of control over what is exposed and what is not.
 
-> Now, it may be the case that `c:\Windows` is already included in your PATH. In fact, that is how you are able to run `notepad`, `calc` and so on directly from `Run..` or terminal.
+> `c:\Windows` is included in your PATH by default. In fact, that is how you are able to run `notepad`, `calc` and so on directly from `Run..` or a terminal.
 
 ### An added benefit
 

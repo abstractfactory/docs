@@ -10,6 +10,7 @@ Time to get git'in
 The Pipi installer requires `git` to be available on your path.
 
 Within the installation, there is an option for you to *"Run git from the Windows Command prompt"*. Check this.
+
 ![](https://dl.dropbox.com/s/y4nosicjfvyjgbg/installing-git-fromterminal.png)
 
 If you would rather not, then you need to expose the /bin directory of the installation to your PATH.

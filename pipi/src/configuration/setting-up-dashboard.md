@@ -39,7 +39,6 @@ studio
 
 ### Educate your OS
 
-
 Get ready, this is about to be your first configuration, as we will finally get to see what `About` is all about. (pun)
 
 * Right-click on your user and `Open in About`
@@ -49,9 +48,9 @@ Get ready, this is about to be your first configuration, as we will finally get 
 $ c:\users\marcus
 ```
 
-- ![][metadata-pipi] 1. Add a new entry called `pipi`, use shift-enter to finish. 
-- ![][metadata-rootdir] 2. Inside of `pipi`, add `rootDir`, no shift this time. 
-- ![][metadata-studio] 3. Inside of `rootDir`, type `c:\studio`
+1. Add a new entry called `pipi`, use shift-enter to finish. 
+2. Inside of `pipi`, add `rootDir`, no shift this time. 
+3. Inside of `rootDir`, type `c:\studio`
 
 > If you make a mistake, hit the `delete` key to remove an entry and try again.
 
@@ -63,15 +62,17 @@ This is what you should be ending up with.
 
 I don't know about you, but if it were me, I'd have the executable of Dashboard close-by. How about we add a shortcut to our taskbar?
 
-1. Create a shortcut to `pythonw.exe`, most commonly located in `c:\python27\pythonw.exe`
-2. In its properties, add the full path of /piapp/dashboard/bin/dashboard.pyw
+* Create a shortcut to `pythonw.exe`, most commonly located in `c:\python27\pythonw.exe`
+* In its properties, add the full path of /piapp/dashboard/bin/dashboard.pyw
 
 ```
 # For example
 $ c:\python27\python.pyw C:\Python27\Lib\site-packages\piapp\dashboard\bin\dashboard.pyw
 ```
 
-3. Now drag this shortcut to your taskbar, or wherever you'd like it to be.
+* Now drag this shortcut to your taskbar, or wherever you'd like it to be.
+
+![](https://dl.dropbox.com/s/6foo41ebzkwvum9/adding-to-taskbar.png)
 
 ### [`Registering software ->`](../registering-software)
 

@@ -167,6 +167,10 @@
                     <ul class="dropdown-menu">
                     
                         <li >
+                            <a href="../../introduction/">Introduction</a>
+                        </li>
+                    
+                        <li >
                             <a href="../../user-guide/reference/">Reference</a>
                         </li>
                     
@@ -264,7 +268,7 @@
 <p>As good as any. Now we will want to expose this executable. The process is identical to how we exposed Python et. al. to your terminal <a href="../../installation/adding-to-path">earlier</a>. That's right, we're going to add it to our PATH.</p>
 <p>Anything located on your PATH is accessible via a single keyword.</p>
 <h3 id="showing-ya-true-colors">Showing ya' true colors</h3>
-<p>We could do add this:</p>
+<p>We could add this:</p>
 <pre class="prettyprint well"><code>c:\Windows
 </code></pre>
 
@@ -275,7 +279,7 @@ $ echo &quot;c:\Windows\notepad.exe&quot; &gt; c:\bin\notepad.bat
 
 <p>As good as any. Now go ahead and <a href="../../installation/adding-to-path">add this folder to your PATH</a>. By doing it this way, we gain a finer level of control over what is exposed and what is not.</p>
 <blockquote>
-<p>Now, it may be the case that <code>c:\Windows</code> is already included in your PATH. In fact, that is how you are able to run <code>notepad</code>, <code>calc</code> and so on directly from <code>Run..</code> or terminal.</p>
+<p><code>c:\Windows</code> is included in your PATH by default. In fact, that is how you are able to run <code>notepad</code>, <code>calc</code> and so on directly from <code>Run..</code> or a terminal.</p>
 </blockquote>
 <h3 id="an-added-benefit">An added benefit</h3>
 <p>Separating your executables from their original directory has an added benefit of being separated from its original name. Imagine for a second that you were running <code>notepad 1.0</code> alongside <code>notepad 2.0</code>. These two versions are incompatible with each other, so it is important to keep data produced by them separate.</p>

@@ -37,6 +37,7 @@ Those are
 
 * `Cascading appdata`
 * `Metadata renaming`
+* `Creating/Deleting folders from Dashboard`
 
 #### Cascading appdata
 

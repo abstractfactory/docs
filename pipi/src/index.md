@@ -7,9 +7,15 @@
 
 Glad you're here, we were just talking about you. Greg was telling me that he doesn't think you have what it takes to finish this guide. I was all like *"No way!"*, like, trying to defend you, but he was still going like *"Yes way!"*. Now, which'll it be?
 
+### Introduction
+
+Let me show you around, get you familiar what it is you'll be putting your hands on in this guide.
+
+* [`guide` Introduction][intro]
+
 ### Community
 
-First things first, if you have any problems, questions, suggestions or just want to spread the love, go here:
+If you have any problems, questions, suggestions or just want to spread the love, go here:
 
 * [`community` Usergroup][usergroup]
 
@@ -59,6 +65,7 @@ Once things have been said and done, the [FAQ][] is where you'll find the most a
 
 ```
 
+[intro]: introduction.md
 [firststeps]: user-guide/first-steps
 [FAQ]: user-guide/faq
 [about]: user-guide/reference#About
