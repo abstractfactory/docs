@@ -11,4 +11,4 @@ Look at you go! This is it. The final step before your artists could actually st
 3. Select your brand new workspace, `notepad`
 4. Launch
 
-### ['Configuring software ->'](../configuring-software)
+### [`Configuring software ->`](../configuring-software)

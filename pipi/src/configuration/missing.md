@@ -47,3 +47,5 @@ Application configuration should be adding to existing configuration up a hierar
 # Example here..
 
 ```
+
+[OMS]: http://rfc.abstractfactory.io/spec/10/
