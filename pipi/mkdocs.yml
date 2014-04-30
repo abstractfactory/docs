@@ -13,6 +13,8 @@ pages:
 - ['installation/adding-to-path.md', 'Installation', 'Adding to PATH']
 - ['installation/trouble.md', 'Installation', 'Having Trouble']
 - ['installation/testing.md', 'Installation', 'Testing']
+- ['installation/video-preparing-windows.md', 'Installation', 'Video Preparing Windows']
+- ['installation/video-installing-pipi.md', 'Installation', 'Video Installing Pipi']
 
 - ['configuration/overview.md', 'Configuration', 'Overview']
 - ['configuration/setting-up-about.md', 'Configuration', 'Setting up About']
@@ -34,8 +36,7 @@ pages:
 - ['user-guide/faq.md', 'User Guide', 'FAQ']
 
 - ['contributing.md', 'Contributing']
-- ['about.md', 'About', 'About']
-- ['index-alt.md', 'About', 'Alternative Index']
+- ['about.md', 'About']
 # theme_dir: 'theme'
 theme: 'bootstrap'
 # theme: cerulean

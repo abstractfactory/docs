@@ -6,7 +6,7 @@ It is assumed you already have `Python` on your system. However, for completenes
 
 ### Come with me if you want to live
 
-Python is the most useful if it is accessible via your terminal.
+Although optional for the purposes of this guide and usage of Pipi, Python is the most useful if it is accessible via your terminal.
 
 ```
 $ python

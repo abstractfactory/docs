@@ -5,8 +5,8 @@
 
 Either have a look at some videos, or follow the instructions below.
 
-* [`video` Preparing Windows][Preparing Windows]
-* [`video` Installing `Pipi`][Installing with setup_pipi.py]
+* [`video` Preparing Windows](../video-preparing-windows)
+* [`video` Installing `Pipi`](../video-installing-pipi)
 
 # Installing with `setup_pipi.py`
 
@@ -45,9 +45,6 @@ It is assumed that you are running either Windows 7 or 8. Linux and OSX version 
 Such enthusiasm! Go right ahead to:
 
 ### [`Configuring Pipi ->`](../../configuration/overview)
-
-[Preparing Windows]: http://www.google.com
-[Installing with setup_pipi.py]: http://www.google.com
 
 [usergroup]: https://groups.google.com/forum/#!forum/pipi-beta1
 [configure]: ../../user-guide/configuration
