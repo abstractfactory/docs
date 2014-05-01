@@ -7,17 +7,23 @@
 
 Glad you're here, we were just talking about you. Greg was telling me that he doesn't think you have what it takes to finish this guide. I was all like *"No way!"*, like, trying to defend you, but he was still going like *"Yes way!"*. Let's not give him the satisfaction!
 
+---
+
 ### Introduction
 
 Let me show you around, get you familiar what it is you'll be putting your hands on in this guide.
 
 * [`guide` Introduction][intro]
 
+---
+
 ### Community
 
 If you have any problems, questions, suggestions or just want to spread the love, go here:
 
 * [`community` Usergroup][usergroup]
+
+---
 
 ### Installation
 
@@ -26,11 +32,15 @@ You have two options for installing Pipi; you are either a developer or you are 
 * [`guide` Developer installation][devinst]
 * [`guide` User installation][userinst]
 
+---
+
 ### Configuration
 
 Once installed, you must be bursting with things you'd like to try out first. The [Configuration][conf] will guide you through some of the things you can to do customise Pipi to you.
 
 * [`guide` Configuration][conf]
+
+---
 
 ### Reference
 
@@ -38,6 +48,8 @@ This beta contains two applications; Dashboard and About. These are what you wil
 
 * [`reference` About][about]
 * [`reference` Dashboard][dash]
+
+---
 
 ### Have fun
 

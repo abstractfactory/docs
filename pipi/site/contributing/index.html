@@ -237,6 +237,11 @@
         <li class="main "><a href="#fork-submit-pull-request">Fork, submit pull-request</a></li>
         
     
+        <li class="main "><a href="#style-guide">Style guide</a></li>
+        
+            <li><a href="#self-documenting">Self-documenting</a></li>
+        
+    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
@@ -247,8 +252,20 @@
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#114;&#99;&#117;&#115;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;">&#109;&#97;&#114;&#99;&#117;&#115;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;</a></li>
 </ul>
-<h1 id="fork-submit-pull-request">Fork, submit pull-request</h1>
-<p>That sums up the gist of our collaboration. As for style guidelines, <a href="https://groups.google.com/forum/#!forum/pipi-beta1">the usergroup</a> would be an excellent place to get some of those put into black and white.</p>
+<h3 id="fork-submit-pull-request">Fork, submit pull-request</h3>
+<p>That sums up the gist of our collaboration.</p>
+<hr />
+<h1 id="style-guide">Style guide</h1>
+<p>Ride in style. All code here follows PEP8 without exception.</p>
+<h3 id="self-documenting">Self-documenting</h3>
+<p>All code strives to be self-documenting/self-describing. Meaning variable names communicate their value, functions and methods communicate their actions. Part of making this feasable is keeping functions and methods concise and in an ideal world they would all be atomic; i.e. not causing side-effects, not touching anything outside of their input arguments.</p>
+<h4 id="doctest">Doctest</h4>
+<p>The code-base is nimble and agile. Doc-tests are currently the main vessel of ensuring code-health. The following module has been crafted to illustrate how self-documenting code should look, with an ideal amount of doctests.</p>
+<p><a href="https://github.com/abstractfactory/openmetadata/blob/master/openmetadata/path.py">path.py</a></p>
+<h4 id="standalone-modules">Standalone modules</h4>
+<p>All modules MUST be executable on its own.</p>
+<h4 id="cyclic-dependency">Cyclic dependency</h4>
+<p>As a consequence of the above, Standalone modules, there MUST NOT be any cyclic dependencies.</p>
 </div>
         </div>
 
