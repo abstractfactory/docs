@@ -65,8 +65,11 @@ I don't know about you, but if it were me, I'd have the executable of Dashboard 
 * In its properties, add the full path of /piapp/dashboard/bin/dashboard.pyw
 
 ```
-# For example
-$ c:\python27\python.pyw C:\Python27\Lib\site-packages\piapp\dashboard\bin\dashboard.pyw
+# For example, replace
+$ c:\python27\pythonw.exe
+
+# With
+$ c:\python27\pythonw.exe C:\Python27\Lib\site-packages\piapp\dashboard\bin\dashboard.pyw
 ```
 
 * Now drag this shortcut to your taskbar, or wherever you'd like it to be.
