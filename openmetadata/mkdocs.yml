@@ -1,0 +1,6 @@
+site_name: Open Metadata Guide
+docs_dir: 'src'
+pages:
+- ['index.md', 'Getting Started']
+- ['about.md', 'About']
+theme: 'bootstrap'

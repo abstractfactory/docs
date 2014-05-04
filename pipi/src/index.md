@@ -1,7 +1,5 @@
-<!-- ![](../img/title.png) -->
-<!-- ![](https://dl.dropbox.com/s/x6gap4a13jekdnz/title.png) -->
 ![](https://dl.dropbox.com/s/uwh6k3ycar6l7gz/the_general_problem.png)
-<!-- ![](https://www.dropbox.com/s/x6gap4a13jekdnz/title.png) -->
+<!-- ![](../images/the_general_problem.png) -->
 
 # The *Amazing* Guide to **Pipi** `(beta)`
 
