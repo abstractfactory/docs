@@ -2,5 +2,27 @@ site_name: Open Metadata Guide
 docs_dir: 'src'
 pages:
 - ['index.md', 'Getting Started']
+
+- ['use-case/preferences.md', 'Use-cases', 'Preferences']
+- ['use-case/configuration.md', 'Use-cases', 'Configuration']
+- ['use-case/conversation.md', 'Use-cases', 'Conversation']
+- ['use-case/progress.md', 'Use-cases', 'Progress']
+- ['use-case/relationships.md', 'Use-cases', 'Relationships']
+- ['use-case/scheduling.md', 'Use-cases', 'Scheduling']
+- ['use-case/tasks.md', 'Use-cases', 'Tasks']
+- ['use-case/tracking.md', 'Use-cases', 'Tracking']
+- ['use-case/content-assembly.md', 'Use-cases', 'Content Assembly']
+- ['use-case/website-generation.md', 'Use-cases', 'Website Generation']
+- ['use-case/binary.md', 'Use-cases', 'Binary']
+
+- ['data-store/overview.md', 'Data Store', 'Overview']
+- ['data-store/geometry.md', 'Data Store', 'Geometry']
+- ['data-store/math.md', 'Data Store', 'Math']
+- ['data-store/animation.md', 'Data Store', 'Animation']
+- ['data-store/web.md', 'Data Store', 'Web']
+
+- ['programming/overview.md', 'Programming', 'Overview']
+- ['programming/binary.md', 'Programming', 'Binary']
+
 - ['about.md', 'About']
 theme: 'bootstrap'
