@@ -8,7 +8,7 @@ Look at you go! This is it. The final step before your artists could actually st
 
 1. Open Dashboard
 2. Select a task, e.g. `shot2`
-3. Select your brand new workspace, `notepad`
+3. Select your brand new workspace, `calc`
 4. Launch
 
 ### [`Configuring software ->`](../configuring-software)

@@ -55,7 +55,17 @@ Let's have a look at where you may have use for this.
 
 #### Programming
 
-* [Omlang](../programming/overview)
+* [Omlang](../programming/omlang)
+* [Source code](../programming/source-code)
+* [Business logic](../programming/business-logic)
+* [Command-line interface](../programming/cli)
+
+---
+
+#### Protocols
+
+* [Overview](use-case/protocol-overview)
+* [Schema Validation](use-case/schema-validation)
 
 ---
 
@@ -63,7 +73,27 @@ Let's have a look at where you may have use for this.
 
 * [Overview](../performance/overview)
 * [Binary](../performance/binary)
+* [De-duplication](../performance/de-duplication)
+
+---
 
 #### Concurrency
 
-* [Zero Metadata](http://rfc.abstractfactory.io/13)
+* [Zero Metadata](http://rfc.abstractfactory.io/spec/13)
+
+---
+
+```python
+>>> hello@abstractfactory.io
+>>> 
+>>> Abstract Factory
+>>> www.abstractfactory.io
+>>> 
+>>> The Exchange
+>>> 28 London Bridge Street
+>>> London
+>>> SE1 9SG
+>>> 
+>>> Documentation built with MkDocs.
+
+```

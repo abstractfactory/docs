@@ -29,12 +29,12 @@ Any folder installed with software contains `appdata`. `appdata` then contains a
 
 ### Remember your training, Luke
 
-In the [previous guide](../registering-software) we associated a name to a specific application; `notepad`. That is our `key`.
+In the [previous guide](../registering-software) we associated a name to a specific application; `calc`. That is our `key`.
 
 ```
 folder
 	appdata
-		notepad.app
+		calc.app
 ```
 
 `appdata` is then used as a container for each installed application into `folder`.

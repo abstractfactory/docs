@@ -11,7 +11,7 @@ Dashboard is good for two things; running software and configuring the context u
 Step one is to locate an executable.
 
 ```
-C:\Windows\notepad.exe
+C:\Windows\calc.exe
 ```
 
 As good as any. Now we will want to expose this executable. The process is identical to how we exposed Python et. al. to your terminal [earlier][PATH]. That's right, we're going to add it to our PATH.
@@ -26,24 +26,24 @@ We could add this:
 c:\Windows
 ```
 
-Now, `notepad.exe` would be accessible via the terminal, but so would everything else residing in that directory. Not very minimalistic. Let's instead note the absolute path of `notepad.exe` into a `.bat` file and position it in a folder that we will later expose.
+Now, `calc.exe` would be accessible via the terminal, but so would everything else residing in that directory. Not very minimalistic. Let's instead note the absolute path of `calc.exe` into a `.bat` file and position it in a folder that we will later expose.
 
 ```
 $ mkdir c:\bin
-$ echo "c:\Windows\notepad.exe" > c:\bin\notepad.bat
+$ echo "c:\Windows\calc.exe" > c:\bin\calc.bat
 ```
 
 As good as any. Now go ahead and [add this folder to your PATH][PATH]. By doing it this way, we gain a finer level of control over what is exposed and what is not.
 
-> `c:\Windows` is included in your PATH by default. In fact, that is how you are able to run `notepad`, `calc` and so on directly from `Run..` or a terminal.
+> `c:\Windows` is included in your PATH by default. In fact, that is how you are able to run `calc`, `calc` and so on directly from `Run..` or a terminal.
 
 ### An added benefit
 
-Separating your executables from their original directory has an added benefit of being separated from its original name. Imagine for a second that you were running `notepad 1.0` alongside `notepad 2.0`. These two versions are incompatible with each other, so it is important to keep data produced by them separate.
+Separating your executables from their original directory has an added benefit of being separated from its original name. Imagine for a second that you were running `calc 1.0` alongside `calc 2.0`. These two versions are incompatible with each other, so it is important to keep data produced by them separate.
 
 ```
-$ echo "c:\Windows-7\notepad.exe" > c:\bin\notepad-1.0.bat
-$ echo "c:\Windows-8\notepad.exe" > c:\bin\notepad-2.0.bat
+$ echo "c:\Windows-7\calc.exe" > c:\bin\calc-1.0.bat
+$ echo "c:\Windows-8\calc.exe" > c:\bin\calc-2.0.bat
 ```
 
 Having added both of these directories to our path would have made it impossible for us to reference a specific version.

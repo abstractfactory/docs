@@ -1,4 +1,3 @@
-![](https://dl.dropbox.com/s/uwh6k3ycar6l7gz/the_general_problem.png)
 <!-- ![](../images/the_general_problem.png) -->
 
 # The *Amazing* Guide to **Pipi** `(beta)`
@@ -7,7 +6,11 @@ Glad you're here, we were just talking about you. Greg was telling me that he do
 
 ---
 
+![](https://dl.dropbox.com/s/uwh6k3ycar6l7gz/the_general_problem.png)
+
+
 ### Introduction
+
 
 Let me show you around, get you familiar what it is you'll be putting your hands on in this guide.
 
@@ -75,6 +78,7 @@ Once things have been said and done, the [FAQ][] is where you'll find the most a
 
 ```
 
+[dam]: http://en.wikipedia.org/wiki/Digital_asset_management
 [intro]: introduction.md
 [firststeps]: user-guide/first-steps
 [FAQ]: user-guide/faq

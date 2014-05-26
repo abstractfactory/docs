@@ -15,7 +15,7 @@ Once software has been registered and installed into your folder, artists can st
 1. Pop up Dashboard
 2. Enter into a folder, e.g. `shot2`
 3. Hover your cursor at the bottom of a column and hit the `add` button
-4. Select `notepad` to add this workspace to `shot2`
+4. Select `calc` to add this workspace to `shot2`
 
 ### Simple
 

@@ -222,6 +222,15 @@
                     </a>
                 </li>
                 
+                <li>
+                    <a href="https://github.com/abstractfactory/pipi">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
             </ul>
         </div>
     </div>
@@ -234,12 +243,35 @@
         <li class="main active"><a href="#warm-and-fuzzy">Warm and fuzzy</a></li>
         
     
-        <li class="main "><a href="#fork-submit-pull-request">Fork, submit pull-request</a></li>
+        <li class="main "><a href="#social-style">Social Style</a></li>
+        
+            <li><a href="#ss1-dont-try-and-solve-problems-that-arent-directly-infront-of-you">SS1 - Don't try and solve problems that aren't directly infront of you</a></li>
+        
+            <li><a href="#ss2-define-a-problem-before-solving-it">SS2 - Define a problem before solving it</a></li>
+        
+            <li><a href="#ss3-keep-it-simple">SS3 - Keep it simple</a></li>
+        
+            <li><a href="#ss4-third-party">SS4 - Third-party</a></li>
         
     
-        <li class="main "><a href="#style-guide">Style guide</a></li>
+        <li class="main "><a href="#coding-style">Coding Style</a></li>
         
-            <li><a href="#self-documenting">Self-documenting</a></li>
+            <li><a href="#cs1-fork-submit-pull-request">CS1 - Fork, submit pull-request</a></li>
+        
+            <li><a href="#cs2-fork-dont-branch">CS2 - Fork, don't branch</a></li>
+        
+            <li><a href="#cs3-self-documenting">CS3 - Self-documenting</a></li>
+        
+            <li><a href="#cs4-doctest">CS4 - Doctest</a></li>
+        
+            <li><a href="#cs5-standalone-modules">CS5 - Standalone modules</a></li>
+        
+            <li><a href="#cs6-cyclic-dependency">CS6 - Cyclic dependency</a></li>
+        
+            <li><a href="#cs7-name-clashing">CS7 - Name clashing</a></li>
+        
+    
+        <li class="main "><a href="#gui">GUI</a></li>
         
     
     </ul>
@@ -252,20 +284,87 @@
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#114;&#99;&#117;&#115;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;">&#109;&#97;&#114;&#99;&#117;&#115;&#64;&#97;&#98;&#115;&#116;&#114;&#97;&#99;&#116;&#102;&#97;&#99;&#116;&#111;&#114;&#121;&#46;&#105;&#111;</a></li>
 </ul>
-<h3 id="fork-submit-pull-request">Fork, submit pull-request</h3>
+<hr />
+<h3 id="social-style">Social Style</h3>
+<p>Writing code is ultimately social. Here are some guidelines for how to behave most appropriate within this codebase.</p>
+<hr />
+<h4 id="ss1-dont-try-and-solve-problems-that-arent-directly-infront-of-you"><code>SS1</code> - Don't try and solve problems that aren't directly infront of you</h4>
+<p>A side-effect of this is that you'll never attempt to complete a system all at once, but rather work only on the parts required to solve a problem at hand.</p>
+<p>This facilitates a solution to remain minimally complete, but also relevant, as there is a chance that your optional solutions may not ever be required and may instead bog down overall clarity of a project.</p>
+<hr />
+<h4 id="ss2-define-a-problem-before-solving-it"><code>SS2</code> - Define a problem before solving it</h4>
+<p>By defining it, you gain perspective and the ability to communicate your ideas before committing to any one idea in particular.</p>
+<p>Have a look at http://rfc.abstractfactory.io for examples of how we approach defining problems.</p>
+<hr />
+<h4 id="ss3-keep-it-simple"><code>SS3</code> - Keep it simple</h4>
+<p>I'll let Albert speak for himself.</p>
+<blockquote>
+<p>If you can't explain it simply, you don't understand it well enough. - Albert Einstein</p>
+<p>Make everything as simple as possible, but not simpler. - Albert Einstein</p>
+</blockquote>
+<hr />
+<h4 id="ss4-third-party"><code>SS4</code> - Third-party</h4>
+<ul>
+<li>Use of third-party <em>ideas</em> are encouraged.</li>
+<li>Use of third-party <em>implementantions</em> are discouraged.</li>
+</ul>
+<p>The motivation to this guideline is to encourage re-use of existing concepts, whilst keeping the learning curve small. Additional third-party implementations are only considered if you can illustrate the pros and cons of doing so; given that the pros outweight the cons.</p>
+<hr />
+<h3 id="coding-style">Coding Style</h3>
+<p>Ride in style. All code here follows PEP8 without exception.</p>
+<hr />
+<h4 id="cs1-fork-submit-pull-request"><code>CS1</code> - Fork, submit pull-request</h4>
 <p>That sums up the gist of our collaboration.</p>
 <hr />
-<h1 id="style-guide">Style guide</h1>
-<p>Ride in style. All code here follows PEP8 without exception.</p>
-<h3 id="self-documenting">Self-documenting</h3>
+<h4 id="cs2-fork-dont-branch"><code>CS2</code> - Fork, don't branch</h4>
+<p>Forks are encouraged over branching. Each fork is then also encourage to be functional on it's own, but is not required to. A fork is then worked upon in isolation, similar to a branch, and finally pull-requested into the original.</p>
+<hr />
+<h4 id="cs3-self-documenting"><code>CS3</code> - Self-documenting</h4>
 <p>All code strives to be self-documenting/self-describing. Meaning variable names communicate their value, functions and methods communicate their actions. Part of making this feasable is keeping functions and methods concise and in an ideal world they would all be atomic; i.e. not causing side-effects, not touching anything outside of their input arguments.</p>
-<h4 id="doctest">Doctest</h4>
-<p>The code-base is nimble and agile. Doc-tests are currently the main vessel of ensuring code-health. The following module has been crafted to illustrate how self-documenting code should look, with an ideal amount of doctests.</p>
+<hr />
+<h4 id="cs4-doctest"><code>CS4</code> - Doctest</h4>
+<p>Doc-tests are the main vessel of ensuring code-health. The following module has been crafted to illustrate how self-documenting code should look, with an ideal amount of doctests.</p>
 <p><a href="https://github.com/abstractfactory/openmetadata/blob/master/openmetadata/path.py">path.py</a></p>
-<h4 id="standalone-modules">Standalone modules</h4>
-<p>All modules MUST be executable on its own.</p>
-<h4 id="cyclic-dependency">Cyclic dependency</h4>
-<p>As a consequence of the above, Standalone modules, there MUST NOT be any cyclic dependencies.</p>
+<hr />
+<h4 id="cs5-standalone-modules"><code>CS5</code> - Standalone modules</h4>
+<p>All modules MUST be executable on its own. This means, amonst other things, no relative imports and no mutating of global scope; such as appending features to native <code>os</code> or <code>sys</code> modules.</p>
+<hr />
+<h4 id="cs6-cyclic-dependency"><code>CS6</code> - Cyclic dependency</h4>
+<p>As a side-effect of the above, Standalone modules, there MUST NOT be any cyclic dependencies.</p>
+<h4 id="cs7-name-clashing"><code>CS7</code> - Name clashing</h4>
+<p>Name clashes are resolved using a underscore suffix.</p>
+<p>E.g.</p>
+<pre class="prettyprint well"><code class="python">name1 = 'hello'
+name1_ = 'world'
+</code></pre>
+
+<h3 id="gui">GUI</h3>
+<ul>
+<li>The main graphical framework in use is Python binding of Qt version 5.2.1 called PyQt5.</li>
+<li>All styling is done via CSS and as such each stylable widget MUST provide an <code>objectName</code> so as to be accessible via CSS.</li>
+</ul>
+<p>As each widget maintains an <code>objectName</code> they no longer require an instance variable for persistence.</p>
+<pre class="prettyprint well"><code class="python">mywidget = QtWidgets.QWidget()
+mywidget.setObjectName('MyWidget')  # Node: Object names MUST use MixedCase
+
+# Widget is now accessible from both CSS and code
+</code></pre>
+
+<p><strong>style.css</strong></p>
+<pre class="prettyprint well"><code class="css">#MyWidget {
+    background-color: blue;
+}
+</code></pre>
+
+<p><strong>style.py</strong></p>
+<pre class="prettyprint well"><code class="python">mywidget = self.findChild(QtWidgets.QWidget, 'MyWidget')
+</code></pre>
+
+<p>The main motivation for discarding instance variables is to reduce errors and misunderstandings. Ultimately, providing both an object name AND and instance variable of the same object is duplicity and thus violates the DRY principle.</p>
+<pre class="prettyprint well"><code class="python"># This is an instance variable, and it is not encouraged.
+self.mywidget = mywidget
+</code></pre>
+
 </div>
         </div>
 

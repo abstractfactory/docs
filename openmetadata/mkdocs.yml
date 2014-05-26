@@ -1,7 +1,10 @@
 site_name: Open Metadata Guide
 docs_dir: 'src'
+
+repo_url: https://github.com/abstractfactory/openmetadata
+
 pages:
-- ['index.md', 'Getting Started']
+- ['index.md', 'Home']
 
 - ['use-case/preferences.md', 'Use-cases', 'Preferences']
 - ['use-case/configuration.md', 'Use-cases', 'Configuration']
@@ -14,15 +17,24 @@ pages:
 - ['use-case/content-assembly.md', 'Use-cases', 'Content Assembly']
 - ['use-case/website-generation.md', 'Use-cases', 'Website Generation']
 - ['use-case/binary.md', 'Use-cases', 'Binary']
+- ['use-case/schema-validation.md', 'Use-cases', 'Schema Validation']
+- ['use-case/protocol-overview.md', 'Use-cases', 'Protocols']
 
 - ['data-store/overview.md', 'Data Store', 'Overview']
 - ['data-store/geometry.md', 'Data Store', 'Geometry']
+- ['data-store/plain.md', 'Data Store', 'Plain']
 - ['data-store/math.md', 'Data Store', 'Math']
 - ['data-store/animation.md', 'Data Store', 'Animation']
 - ['data-store/web.md', 'Data Store', 'Web']
 
-- ['programming/overview.md', 'Programming', 'Overview']
-- ['programming/binary.md', 'Programming', 'Binary']
+- ['performance/overview.md', 'Performance', 'Overview']
+- ['performance/binary.md', 'Performance', 'Binary']
+- ['performance/de-duplication.md', 'Performance', 'De-duplication']
+
+- ['programming/omlang.md', 'Programming', 'Omlang']
+- ['programming/source-code.md', 'Programming', 'Source Code']
+- ['programming/business-logic.md', 'Programming', 'Business Logic']
+- ['programming/cli.md', 'Programming', 'Command-line interface']
 
 - ['about.md', 'About']
 theme: 'bootstrap'

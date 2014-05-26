@@ -1,5 +1,6 @@
 site_name: Pipi Guide
 docs_dir: 'src'
+repo_url: https://github.com/abstractfactory/pipi
 pages:
 - ['index.md', 'Getting Started']
 

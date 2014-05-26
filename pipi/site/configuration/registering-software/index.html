@@ -222,6 +222,15 @@
                     </a>
                 </li>
                 
+                <li>
+                    <a href="https://github.com/abstractfactory/pipi">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
             </ul>
         </div>
     </div>
@@ -259,7 +268,7 @@
 <p>Dashboard is good for two things; running software and configuring the context under which that software is run. This guide will be about running software, and for that we will employ a process called <a href="http://rfc.abstractfactory.io/spec/21/">Software Discovery</a>. Here, we'll employ a <em>de-centralised method</em> of software discovery; meaning that we will embark on educating our operating system about what software it has available.</p>
 <h3 id="find-an-executable">Find an executable</h3>
 <p>Step one is to locate an executable.</p>
-<pre class="prettyprint well"><code>C:\Windows\notepad.exe
+<pre class="prettyprint well"><code>C:\Windows\calc.exe
 </code></pre>
 
 <p>As good as any. Now we will want to expose this executable. The process is identical to how we exposed Python et. al. to your terminal <a href="../../installation/adding-to-path">earlier</a>. That's right, we're going to add it to our PATH.</p>
@@ -269,19 +278,19 @@
 <pre class="prettyprint well"><code>c:\Windows
 </code></pre>
 
-<p>Now, <code>notepad.exe</code> would be accessible via the terminal, but so would everything else residing in that directory. Not very minimalistic. Let's instead note the absolute path of <code>notepad.exe</code> into a <code>.bat</code> file and position it in a folder that we will later expose.</p>
+<p>Now, <code>calc.exe</code> would be accessible via the terminal, but so would everything else residing in that directory. Not very minimalistic. Let's instead note the absolute path of <code>calc.exe</code> into a <code>.bat</code> file and position it in a folder that we will later expose.</p>
 <pre class="prettyprint well"><code>$ mkdir c:\bin
-$ echo &quot;c:\Windows\notepad.exe&quot; &gt; c:\bin\notepad.bat
+$ echo &quot;c:\Windows\calc.exe&quot; &gt; c:\bin\calc.bat
 </code></pre>
 
 <p>As good as any. Now go ahead and <a href="../../installation/adding-to-path">add this folder to your PATH</a>. By doing it this way, we gain a finer level of control over what is exposed and what is not.</p>
 <blockquote>
-<p><code>c:\Windows</code> is included in your PATH by default. In fact, that is how you are able to run <code>notepad</code>, <code>calc</code> and so on directly from <code>Run..</code> or a terminal.</p>
+<p><code>c:\Windows</code> is included in your PATH by default. In fact, that is how you are able to run <code>calc</code>, <code>calc</code> and so on directly from <code>Run..</code> or a terminal.</p>
 </blockquote>
 <h3 id="an-added-benefit">An added benefit</h3>
-<p>Separating your executables from their original directory has an added benefit of being separated from its original name. Imagine for a second that you were running <code>notepad 1.0</code> alongside <code>notepad 2.0</code>. These two versions are incompatible with each other, so it is important to keep data produced by them separate.</p>
-<pre class="prettyprint well"><code>$ echo &quot;c:\Windows-7\notepad.exe&quot; &gt; c:\bin\notepad-1.0.bat
-$ echo &quot;c:\Windows-8\notepad.exe&quot; &gt; c:\bin\notepad-2.0.bat
+<p>Separating your executables from their original directory has an added benefit of being separated from its original name. Imagine for a second that you were running <code>calc 1.0</code> alongside <code>calc 2.0</code>. These two versions are incompatible with each other, so it is important to keep data produced by them separate.</p>
+<pre class="prettyprint well"><code>$ echo &quot;c:\Windows-7\calc.exe&quot; &gt; c:\bin\calc-1.0.bat
+$ echo &quot;c:\Windows-8\calc.exe&quot; &gt; c:\bin\calc-2.0.bat
 </code></pre>
 
 <p>Having added both of these directories to our path would have made it impossible for us to reference a specific version.</p>

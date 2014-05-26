@@ -1,6 +1,6 @@
 #### Where am I?
 
-You're looking at an early draft of documentation, specifically tailored for the first beta of Pipi, the digital content creation platform.
+You're looking at an early draft of documentation, specifically tailored for the first beta of Pipi, a digital asset management system.
 
 Psyched? Yes you are.
 

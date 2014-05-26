@@ -4,9 +4,9 @@
 
 ### Time for your reward
 
-I bet you're pretty stumped by now. Having gone through all of these guides.. for what? To start `notepad`? No no no.
+I bet you're pretty stumped by now. Having gone through all of these guides.. for what? To start `calc`? No no no.
 
-The first thing we need to do, is move away from `notepad`. It isn't worthy of the awesum-sauce we are about to sprinkle upon our software. We are about to configure the manner in which software is launched. But first, let's educate ourselves about some fundamentals of software configuration.
+The first thing we need to do, is move away from `calc`. It isn't worthy of the awesum-sauce we are about to sprinkle upon our software. We are about to configure the manner in which software is launched. But first, let's educate ourselves about some fundamentals of software configuration.
 
 ### Args and Kwargs
 

@@ -10,6 +10,6 @@ As Dashboard may run on any computer, on any platform, it is possible that some 
 $ /home/marcus
 ```
 
-On this machine, there is no `notepad`. :(
+On this machine, there is no `calc`. :(
 
 ### [`Cross-platform ->`](../cross-platform)
