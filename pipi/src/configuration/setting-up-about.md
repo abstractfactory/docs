@@ -9,7 +9,7 @@
 Configuration diverges into `About`. You'll configure all sorts of things here. Everything, in fact. You'll configure everything in `About`, so get cozy and let's go.
 
 ```
-$ python /piapp/about/bin/windows_contextmenu.py
+double-click /piapp/about/bin/windows_contextmenu.py
 ```
 
 About, in fact, is so important that we will spend a moment to educate the operating system about its presence.
