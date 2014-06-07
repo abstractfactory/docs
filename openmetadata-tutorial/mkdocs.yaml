@@ -1,0 +1,9 @@
+site_name: Open Metadata Tutorial
+docs_dir: 'src'
+
+repo_url: https://github.com/abstractfactory/openmetadata
+
+pages:
+- ['index.md', 'Home']
+
+theme: 'bootstrap'

@@ -11,18 +11,9 @@ Glad you're here, we were just talking about you. Greg was telling me that he do
 
 ### Introduction
 
-
 Let me show you around, get you familiar what it is you'll be putting your hands on in this guide.
 
 * [`guide` Introduction][intro]
-
----
-
-### Community
-
-If you have any problems, questions, suggestions or just want to spread the love, go here:
-
-* [`community` Usergroup][usergroup]
 
 ---
 
@@ -54,12 +45,9 @@ This beta contains two applications; Dashboard and About. These are what you wil
 
 ### Have fun
 
-[Come talk with us][usergroup] and we'll tell you the secret recipe for the perfect pipeline.
-
-Once things have been said and done, the [FAQ][] is where you'll find the most awesome of questions and answers.
+Once things have been said and done, the [FAQ][] is where we'll collect the most awesome of questions and answers.
 
 * [`reference` FAQ][FAQ]
-* [`community` Usergroup][usergroup]
 
 ---
 
